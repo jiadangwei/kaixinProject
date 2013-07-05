@@ -1,0 +1,126 @@
+@import "reset.scss";
+$wd320 :320px;
+$wd480 :480px;
+$ratio : $wd320/$wd480;
+$va30 : 30px;
+$val46 : 46px;
+$val302 : 302px;
+$val20 : 20px;
+$val54 : 54px;
+$val196 : 196px;
+$val40 : 40px;
+$val62 : 62px;
+$val208 : 208px;
+$val78 : 78px;
+.pdt30 {
+  padding-top: $va30;
+}
+body {
+  font-family: '\5FAE\8F6F\96C5\9ED1', Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color:#666;
+}
+.loveSongsBg {
+  background:url(../img/loveSongsBg.png) repeat 0 0;
+}
+.loveSongsHd {
+  background-image:url(../img/loveSongsHd.png);
+  @extend .bg-contain;
+  background-repeat: repeat-x;
+  height: $val46;
+  h1 {
+    display: none;
+  }
+}
+.leftSideLove {
+  width:36%;
+  height:$val302;
+  margin: 0 $val20;
+  position: relative;
+  background-image: url(../img/leftSideLoveBg.png);
+  @extend .bg-contain;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:$val54 0 0 0;
+}
+.leftSideInner {
+  height:$val196;
+  background-image: url(../img/leftSideInner.png);
+  @extend .bg-contain;
+}
+.leftSideTop {
+  position: absolute;
+  width:100%;
+  height:$val40;
+  background-image:url(../img/leftSideTop.png);
+  @extend .bg-contain;
+  top:-$val62;
+  left:-2px;
+}
+.rightBg {
+  height:$val208;
+  background-image:url(../img/rightBg.png);
+  @extend .bg-contain;
+  background-position: left center;
+  margin-bottom:$val20;
+}
+.btnDownAndriod,.btnDownIos {
+  display: block;
+  height:$val78;
+  background-image: url(../img/btnDownAndriod.png);
+  @extend .bg-contain;
+  background-position: left center;
+}
+.btnDownIos {
+  background-image: url(http://img1.kaixin001.com.cn/i4/act/act_iPhone/btn_down01.png);
+}
+
+@media (max-width: 320px) {
+  .pdt30 {
+    padding-top: $ratio*$va30;
+  }
+  .loveSongsHd {
+    height: $ratio*$val46;
+  }
+  .leftSideLove {
+    height:$ratio*$val302;
+    margin: 0 $ratio*$val20;
+    padding:$ratio*$val54 0 0 0;
+  }
+  .leftSideInner {
+    height:$ratio*$val196;
+  }
+  .leftSideTop {
+    height:$ratio*$val40;
+    top:-$ratio*$val62;
+  }
+  .rightBg {
+    height:$ratio*$val208;
+    margin-bottom:$ratio*$val20;
+  }
+  .btnDownAndriod,.btnDownIos {
+    height:$ratio*$val78;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,542 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+<title>开心网</title>
+<script type="text/javascript">var g_st_time=new Date().getTime();</script>
+<script src="http://s.kaixin001.com.cn/js/_combo/base*Base,base*Array,base*Class,base*Function,base*Object,base*String,base*Browser,base*Pubsub,base*Module,base*CustEvent,base*Env,base*Util-0015bc309.js"></script>
+<meta name="msapplication-window" content="" />
+<meta name="msapplication-starturl" content="/" />
+<meta name="msapplication-task" content="name=照片;action-uri=/photo/;icon-uri=http://img1.kaixin001.com.cn/i/favicon/album.ico;window-type=self" />
+<meta name="msapplication-task" content="name=日记;action-uri=/diary/;icon-uri=http://img1.kaixin001.com.cn/i/favicon/diary.ico;window-type=self" />
+<meta name="msapplication-task" content="name=记录;action-uri=/records/;icon-uri=http://img1.kaixin001.com.cn/i/favicon/records.ico;window-type=self" />
+<meta name="msapplication-task" content="name=转贴;action-uri=/!repaste/friend.php;icon-uri=http://img1.kaixin001.com.cn/i/favicon/repaste.ico;window-type=self" />
+<meta name="msapplication-task" content="name=全部应用;action-uri=/app/;icon-uri=http://img1.kaixin001.com.cn/i/favicon/apps.ico;window-type=self" />
+<link href="http://img1.kaixin001.com.cn/i/favicon/favicon1.ico" rel="icon" type="image/x-icon" />
+<link href="http://img1.kaixin001.com.cn/i/favicon/favicon1.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="http://img1.kaixin001.com.cn/i/favicon/favicon1.ico" rel="bookmark" type="image/x-icon" />
+<link href="http://s.kaixin001.com.cn/css/_combo/s,basic,suggestion,icon,panel-06894f3f9.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/_combo/comment,comment2,commentnew-0039c3243.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/_combo/kxchat,kxchat_expand-001274a6a.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/invite-2.css" rel="stylesheet" type="text/css" />
+<link href="http://s.kaixin001.com.cn/css/friend-052030f0d.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/_combo/apppop,usernews,userstar,home,state,calendar2-02689777d.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/school-1.css" rel="stylesheet" type="text/css" />
+<link href="http://s.kaixin001.com.cn/css/kxchatnew-0009d6aa2.css" rel="stylesheet" />
+<link href="http://s.kaixin001.com.cn/css/homenew-0132d7534.css" rel="stylesheet" />
+<script src="http://s.kaixin001.com.cn/js/_combo/prototype-1.6.1,jquery_min,kaixin-00378f240.js"></script>
+<script src="http://s.kaixin001.com.cn/js/_combo/common,lazyload,s,head,head_rgroup,webeditor*editor,webeditor*lite,comment_base,Kx_Utils,Kx_HtmlTpl,apps*common*FaceResource,Kx_Easy_Captcha,apps*common*UserCard,apps*common*AppCard-041369a2e.js"></script>
+<script type="text/javascript">KxLazyLoad(["js/comment.js", "js/dialog.js", "js/app_friend.js"]);</script>
+<script src="http://s.kaixin001.com.cn/js/_combo/addfriend,app_friend,invite-0028634d4.js"></script>
+<script src="http://s.kaixin001.com.cn/js/_combo/friend_suggest,friend_singlesuggest,friend_supersuggest,word_suggest-0026dd84b.js"></script>
+<script src="http://s.kaixin001.com.cn/js/school-001026433.js"></script></head>
+<body>
+	<style>
+	.tx-l {
+		text-align: left;
+	}
+	.tx-c {
+		text-align: center;
+	}
+	.tx-r {
+		text-align: right;
+	}
+	.wrap_box {
+		width:1050px;
+		margin:10px auto 0;
+	}
+	.headerWrap {
+		height: 71px;
+		background: url(img/headerBg.jpg) repeat-x 0 0;
+		padding:20px 30px 0;
+		overflow: hidden;
+	}
+	.mainWrap,.mainIndexWrap {
+		height: 580px;
+		overflow: hidden;
+	}
+	.mainWrap {
+		position: relative;
+		background: url(img/mainBg.jpg) repeat center top;
+	}
+	.mainIndexWrap {
+		background: url(img/mainIndexBg.jpg) repeat center top;
+		padding:0 56px;
+	}
+	.choiceWarp,.topUpWrap {
+		position: absolute;
+		top:50%;
+		left: 50%;		
+	}
+	.choiceWarp {
+		width: 525px;
+		height: 351px;
+		background: url(img/choiceBg.jpg) no-repeat 0 0;
+		margin-left: -262px;
+		margin-top: -175px;
+	}
+	.topUpWrap {
+		width:775px;
+		height: 477px;
+		background: url(img/topUpbg.png) no-repeat center top;
+		margin-left: -387px;
+		margin-top:-238px;
+	}
+	.topUpcon {
+		width:647px;
+		height:402px;
+		margin:8px auto;
+		background: url(img/topUpconBg.jpg) repeat 0 0;
+	}
+	.topUpInner {
+		width: 360px;
+		margin: 0 auto;
+		padding-top: 12px;
+	}
+	.pd-t-25 {
+		padding-top: 25px;
+	}
+	.choiceH4 {
+		height: 45px;
+		background: url(img/choiceH4.png) no-repeat center center;
+	}
+	.bgSprite,.navItme li a {
+		background: url(img/imgSprite.png) no-repeat;
+	}
+	.navItme {
+		
+	}
+	.navItme li {
+		display: inline-block;
+		*display: inline;
+		*zoom:1;
+	}
+	.navItme li a {
+		display: inline-block;
+		width:131px;
+		height:65px;
+		margin-right:20px;
+	}
+	.navItme li a.one {
+		background-position: 0 -35px;
+	}
+	.navItme li a.two {
+		background-position: -156px -35px;
+	}
+	.navItme li a.three {
+		background-position: -312px -35px;
+	}
+	.navItme li a.four {
+		background-position: -468px -35px;
+	}
+	.navItme li.ahover a.one {
+		background-position: 0 -100px;
+	}
+	.navItme li.ahover a.two {
+		background-position: -156px -100px;
+	}
+	.navItme li.ahover a.three {
+		background-position: -312px -100px;
+	}
+	.navItme li.ahover a.four {
+		background-position: -468px -100px;
+	}
+	.btnOk {
+		display: inline-block;
+		width: 90px;
+		height: 35px;
+	}
+	.closeBtn {
+		width:35px;
+		height: 35px;
+		display: inline-block;
+		background-position: -90px 0;
+		margin:10px 15px 0 0;
+	}
+	.footerWrap {
+		height: 88px;
+		background: url(img/footerBg.jpg) no-repeat center top;
+	}
+	.clfix:before,.clfix:after {
+		content: '';
+		display: table;
+	}
+	.clfix:after {
+		clear:both;
+		overflow: hidden;
+	}
+	.clfix {
+		*zoom:1;
+	}
+	.l {
+		float: left;
+		display: inline;
+	}
+	.r {
+		float:right;
+		display: inline;
+	}
+	.overfix {
+		overflow: hidden;
+		*overflow: visible;
+		*zoom:1;
+	}
+	.headerLeft {
+		width:330px;
+		margin-right: 20px;
+	}
+	.headerLeft p {
+		font:bold 20px/1 '微软雅黑',arial;
+		overflow: hidden;
+		word-wrap:normal;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		-o-text-overflow:ellipsis;
+		margin:5px 0;
+	}
+	.faceIconArea {
+		width:50px;
+		height: 50px;
+		padding:2px;
+		background: #fff;
+		box-shadow: 0 0 3px #ddd;
+		float: left;
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.faceIconArea img {
+		width: 50px;
+		height: 50px;
+	}
+</style>
+<div class='wrap_box'>
+	<!-- header con -->
+	<div class="headerWrap overfix">
+		<div class="l headerLeft overfix">
+			<a href="" class="faceIconArea"><img src="img/face001.jpg" height="50" width="50" alt=""></a>
+			<p>用户账号用户账号用户账号用户账号用户账号</p>
+			<p>23165465452316546545231654654523165465452316546545</p>
+		</div>
+		<ul class="overfix navItme">
+			<li><a class="one" href=""></a></li>
+			<li><a class="two" href=""></a></li>
+			<li><a class="three" href=""></a></li>
+			<li><a class="four" href=""></a></li>
+		</ul>
+		<script>
+			$j(function(){
+				$j('.navItme li').hover(function(){
+					$j(this).toggleClass('ahover')
+				})
+			})
+		</script>
+	</div>
+	<!-- main con -->
+	<style>
+				.indexLeftCon {
+					padding-top:20px;
+				}
+				.btn001 {
+					display: block;
+					width:320px;
+					height:80px;
+					background-position:0 -385px; 
+					margin:0 auto;
+				}
+				.btn001:hover {
+					background-position: -320px -385px;
+				}
+				.indexLeftMainCon {
+					width:330px;
+					height: 346px;
+					background: url(img/indexLeftMainCon.png) no-repeat 0 0;
+					margin-top: 10px;
+				}
+				.btnTitWrap {
+					height: 45px;
+					position: relative;
+				}
+				.btnTit {
+					position: absolute;
+					width:216px;
+					height:63px;
+					background-position: 0 -165px;
+					display: block;
+					margin:-8px 0 0 57px;
+				}
+				.btnTit:hover {
+					background-position: -216px -165px;
+				}
+				.textCon01,.textCon02 {
+					width:175px;
+					height:35px;
+					margin:3px auto;
+				}
+				.textCon01 {
+					background-position:-131px 0;
+				}
+				.textCon02 {
+					background-position:-306px 0;
+				}
+				.btn002,.btn003 {
+					display: block;
+					margin:0 auto;
+					width:171px;
+					height:50px;
+				}
+				.btn002 {
+					background-position: 0 -228px;
+				}
+				.btn003 {
+					background-position: -183px -228px;
+				}
+				.btn002_1,.btn002:hover {
+					background-position: 0 -278px;
+				}
+				.btn003_1,.btn003:hover {
+					background-position: -183px -278px;
+				}
+				.hotIcon {
+					position: absolute;
+					width:50px;
+					height: 50px;
+					background-position: -443px -165px;
+					margin:-15px 0 0 -20px;
+				}
+				.btn004 {
+					display: block;
+					width:326px;
+					height: 57px;
+					background-position: 0 -328px;
+					margin-top:10px;
+				}
+				.btn004:hover {
+					background-position: -326px -328px;
+				}
+				.btn005 {
+					display: inline-block;
+					width:269px;
+					height: 80px;
+					background-position: 0 -475px;
+				}
+				.btn005:hover {
+					background-position: -269px -475px;
+				}
+				.likeTitleWrap {					
+					display: inline-block;
+					*display: inline;
+					*zoom:1;
+					text-align: left;
+				}
+				.likeTitle {
+					margin-top: 20px;
+					width:600px;
+					height:30px;
+					background-position: 0 -555px;
+					display: block;
+					color:#fff;
+					font:14px/30px arial;
+					text-indent: 80px;
+					margin-right:50px;
+				}
+				.likeTitle:hover {
+					text-decoration: none;
+				}
+				</style>
+	<div class="mainWrap">
+		<!-- indexMain con -->
+		<div class="mainIndexWrap">
+			<div class="overfix">
+				<div class="l indexLeftCon">
+					<a href="" class="bgSprite btn001"></a>
+					<div class="indexLeftMainCon">
+						<div class="btnTitWrap"><a href="" class="bgSprite btnTit"></a></div>
+						<div class="bgSprite textCon01"></div>
+						<a href="" class="bgSprite btn002 btn002_1"></a>
+						<div class="bgSprite textCon02"></div>
+						<a href="" class="bgSprite btn003"><span class="bgSprite hotIcon"></span></a>
+						<a href="" class="bgSprite btn004"></a>
+					</div>
+				</div>
+				<div class="overfix">
+					<div class="tx-r">
+						<div class="likeTitleWrap"> <a href="" class='bgSprite likeTitle'>2305,1531 peopel like this</a> </div>
+					</div>
+					<div style="height:320px;">
+						
+					</div>
+					<div class='tx-r'> <a href="" class="bgSprite btn005"></a> </div>
+				</div>
+			</div>
+			<style>
+			.faceItemBox {
+				margin:-25px -56px 0;
+				padding:20px 0 35px;
+				background: url(img/faceItemBoxBg.png) no-repeat 0 0;
+				*zoom:1;
+				position: relative;
+			}
+			.faceItemConBoxWrap {
+				border:1px solid #cdcdce;
+				padding:0 3px;
+				background:#fff;
+				width:830px;
+				margin:0 auto;
+			}
+			.faceItemConBox {
+				padding:3px 0 0;
+				background:#fff url(img/faceItemConBoxBg.png) repeat-x;
+				height:94px;
+			}
+			.faceItemWrap {
+				width:805px;
+				height:90px;
+				overflow:hidden;
+				margin:0 auto;
+			}
+			.faceItem {
+				font-size: 0;
+				width:3000px;
+			}
+			.faceItem li {
+				display: inline-block;
+				*display: inline;
+				*zoom:1;
+			}
+			.faceItem li a {
+				display: block;
+				width:95px;
+				height: 90px;
+				overflow: hidden;
+				margin:0 10px;
+			}
+			.faceItem li a img {
+				vertical-align: middle;
+				border-radius:10px;
+			}
+			.faceItemLeftAhover,.faceItemRigthAhover {
+				position: absolute;
+				top:45px;
+				width:32px;
+				height:44px;
+			}
+			.faceItemLeftAhover {
+				left:66px;
+				background-position: -410px -272px;				
+			}
+			.faceItemLeft {
+				background-position: -410px -228px;
+			}
+			.faceItemRigthAhover {
+				right:66px;
+				background-position: -442px -272px;
+			}
+			.faceItemRigth {
+				background-position: -442px -228px;
+			}
+			</style>
+			<div class="faceItemBox">
+				<div class="faceItemConBoxWrap">
+					<div class="faceItemConBox">
+						<div class="faceItemWrap">
+							<ul class="faceItem">
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+								<li><a href=""><img src="img/faceItemImg001.jpg" height="90" width="95" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a href="" class="bgSprite faceItemLeftAhover faceItemLeft"></a>
+				<a href="" class="bgSprite faceItemRigthAhover "></a>
+			</div>
+		</div>
+		<script>
+		$j(function(){
+
+			
+			function cancelEvent(event){
+				if(event.preventDefault){
+					event.preventDefault();
+				}else{
+					event.returnValue = false;
+				}
+			}
+			var liWidthVal = parseInt($j('.faceItem li').css('width'));
+			var liNum = $j('.faceItem li').length;
+			var totalWith = liWidthVal * liNum;
+			var liRowWith = liWidthVal * 7;
+			var minMarginLeftVal = -(totalWith - liRowWith);
+			$j('.faceItem').css('width',liWidthVal*liNum+'px');
+
+			$j('.faceItemRigthAhover').click(function(evt){
+				evt = evt || window.event;
+				cancelEvent(evt);
+				if($j('.faceItemLeftAhover').hasClass('faceItemLeft')){
+					$j('.faceItemLeftAhover').removeClass('faceItemLeft');
+				}
+				if(parseInt($j('.faceItem').css('margin-left'))>minMarginLeftVal){
+					var val = parseInt($j('.faceItem').css('margin-left')) - liWidthVal;
+					$j('.faceItem').animate({marginLeft:val+'px'},100);
+				}
+				if(parseInt($j('.faceItem').css('margin-left'))==minMarginLeftVal){
+					$j(this).addClass('faceItemRigth');
+				}
+			})
+			$j('.faceItemLeftAhover').click(function(evt){
+				evt = evt || window.event;
+				cancelEvent(evt);
+				if($j('.faceItemRigthAhover').hasClass('faceItemRigth')){
+					$j('.faceItemRigthAhover').removeClass('faceItemRigth');
+				}
+				if(parseInt($j('.faceItem').css('margin-left'))<0){
+					var val = parseInt($j('.faceItem').css('margin-left')) + liWidthVal;
+					$j('.faceItem').animate({marginLeft:val+'px'},100);
+				}
+				if(parseInt($j('.faceItem').css('margin-left'))==0){
+					$j(this).addClass('faceItemLeft');
+				}
+			})
+		})
+		</script>
+		<!-- choice area con -->
+		<div class="choiceWarp" style="display:none;">
+			<div class="tx-r"><a href="" class="bgSprite closeBtn"></a></div>
+			<h4 class="choiceH4"></h4>
+			<div>asfasf</div>
+		</div>
+		<!-- top up con -->
+		<div class="topUpWrap" style="display:none;">
+			<div class="topUpcon">
+				<div class="topUpInner">
+					asfdsafasdf
+				</div>
+			</div>
+			<div class="pd-t-25 tx-c">
+				<a href="" class="bgSprite btnOk"></a>
+			</div>
+		</div>
+
+	</div>
+	<!-- footer con -->
+	<div class="footerWrap"></div>
+</div>
+
+    
+</body>
+</html>

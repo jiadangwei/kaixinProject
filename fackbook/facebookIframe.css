@@ -1,0 +1,837 @@
+.tx-l {
+    text-align: left;
+}
+
+.tx-c {
+    text-align: center;
+}
+
+.tx-r {
+    text-align: right;
+}
+
+.wrap_box {
+    width: 1050px;
+    margin: 10px auto 0;
+}
+
+.headerWrap {
+    height: 71px;
+    background: url(img/headerBg.jpg) repeat-x 0 0;
+    padding: 20px 30px 0;
+    overflow: hidden;
+}
+
+.mainWrap, .mainIndexWrap {
+    height: 580px;
+    overflow: hidden;
+}
+
+.mainWrap {
+    position: relative;
+    background: url(img/mainBg.jpg) repeat center top;
+}
+
+.mainIndexWrap {
+    background: url(img/mainIndexBg.jpg) repeat center top;
+    padding: 0 56px;
+}
+
+.choiceWarp, .topUpWrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.choiceWarp {
+    width: 525px;
+    height: 351px;
+    background: url(img/choiceBg.jpg) no-repeat 0 0;
+    margin-left: -262px;
+    margin-top: -175px;
+}
+
+.topUpWrap {
+    width: 775px;
+    height: 477px;
+    background: url(img/topUpbg.png) no-repeat center top;
+    margin-left: -387px;
+    margin-top: -238px;
+}
+
+.topUpcon {
+    width: 647px;
+    height: 402px;
+    margin: 8px auto;
+    background: url(img/topUpconBg.jpg) repeat 0 0;
+}
+
+.topUpInner {
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.pd-t-25 {
+    padding-top: 25px;
+}
+
+.choiceH4 {
+    height: 45px;
+    background: url(img/choiceH4.png) no-repeat center center;
+}
+
+.bgSprite, .navItme li a, .choiceBox a {
+    background: url(img/imgSprite.png) no-repeat;
+}
+
+.navItme {
+
+}
+
+.navItme li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.navItme li a {
+    display: inline-block;
+    width: 131px;
+    height: 65px;
+    margin-right: 20px;
+}
+
+.navItme li a.one {
+    background-position: 0 -35px;
+}
+
+.navItme li a.two {
+    background-position: -156px -35px;
+}
+
+.navItme li a.three {
+    background-position: -312px -35px;
+}
+
+.navItme li a.four {
+    background-position: -468px -35px;
+}
+
+.navItme li.ahover a.one {
+    background-position: 0 -100px;
+}
+
+.navItme li.ahover a.two {
+    background-position: -156px -100px;
+}
+
+.navItme li.ahover a.three {
+    background-position: -312px -100px;
+}
+
+.navItme li.ahover a.four {
+    background-position: -468px -100px;
+}
+
+.btnOk {
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+}
+
+.closeBtn {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-position: -90px 0;
+    margin: 10px 15px 0 0;
+}
+
+.footerWrap {
+    height: 88px;
+    background: url(img/footerBg.jpg) no-repeat center top;
+}
+
+.clfix:before, .clfix:after {
+    content: '';
+    display: table;
+}
+
+.clfix:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.clfix {
+    *zoom: 1;
+}
+
+.l {
+    float: left;
+    display: inline;
+}
+
+.r {
+    float: right;
+    display: inline;
+}
+
+.overfix {
+    overflow: hidden;
+    *overflow: visible;
+    *zoom: 1;
+}
+
+.headerLeft {
+    width: 330px;
+    margin-right: 20px;
+}
+
+.headerLeft p {
+    font: bold 20px/1 '微软雅黑', arial;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    margin: 5px 0;
+}
+
+.faceIconArea {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    background: #fff;
+    box-shadow: 0 0 3px #ddd;
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.faceIconArea img {
+    width: 50px;
+    height: 50px;
+}
+
+.indexLeftCon {
+    padding-top: 20px;
+}
+
+.btn001 {
+    display: block;
+    width: 320px;
+    height: 80px;
+    background-position: 0 -385px;
+    margin: 0 auto;
+}
+
+.btn001:hover {
+    background-position: -320px -385px;
+}
+
+.indexLeftMainCon {
+    width: 330px;
+    height: 346px;
+    background: url(img/indexLeftMainCon.png) no-repeat 0 0;
+    margin-top: 10px;
+}
+
+.btnTitWrap {
+    height: 45px;
+    position: relative;
+}
+
+.btnTit {
+    position: absolute;
+    width: 216px;
+    height: 63px;
+    background-position: 0 -165px;
+    display: block;
+    margin: -8px 0 0 57px;
+}
+
+.btnTit:hover {
+    background-position: -216px -165px;
+}
+
+.textCon01, .textCon02 {
+    width: 175px;
+    height: 35px;
+    margin: 3px auto;
+}
+
+.textCon01 {
+    background-position: -131px 0;
+}
+
+.textCon02 {
+    background-position: -306px 0;
+}
+
+.btn002, .btn003 {
+    display: block;
+    margin: 0 auto;
+    width: 171px;
+    height: 50px;
+}
+
+.btn002 {
+    background-position: 0 -228px;
+}
+
+.btn003 {
+    background-position: -183px -228px;
+}
+
+.btn002_1, .btn002:hover {
+    background-position: 0 -278px;
+}
+
+.btn003_1, .btn003:hover {
+    background-position: -183px -278px;
+}
+
+.hotIcon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-position: -443px -165px;
+    margin: -15px 0 0 -20px;
+}
+
+.btn004 {
+    display: block;
+    width: 326px;
+    height: 57px;
+    background-position: 0 -328px;
+    margin-top: 10px;
+}
+
+.btn004:hover {
+    background-position: -326px -328px;
+}
+
+.btn005 {
+    display: inline-block;
+    width: 269px;
+    height: 80px;
+    background-position: 0 -475px;
+}
+
+.btn005:hover {
+    background-position: -269px -475px;
+}
+
+.likeTitleWrap {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    text-align: left;
+}
+
+.likeTitle {
+    margin-top: 20px;
+    width: 600px;
+    height: 30px;
+    background-position: 0 -555px;
+    display: block;
+    color: #fff;
+    font: 14px/30px arial;
+    text-indent: 80px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.likeTitle:hover {
+    text-decoration: none;
+}
+
+.faceItemBox {
+    margin: -25px -56px 0;
+    padding: 20px 0 35px;
+    background: url(img/faceItemBoxBg.png) no-repeat 0 0;
+    *zoom: 1;
+    position: relative;
+}
+
+.faceItemConBoxWrap {
+    border: 1px solid #cdcdce;
+    padding: 0 3px;
+    background: #fff;
+    width: 830px;
+    margin: 0 auto;
+}
+
+.faceItemConBox {
+    padding: 3px 0 0;
+    background: #fff url(img/faceItemConBoxBg.png) repeat-x;
+    height: 94px;
+}
+
+.faceItemWrap {
+    width: 805px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.faceItem {
+    font-size: 0;
+    width: 3000px;
+}
+
+.faceItem li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.faceItem li a {
+    display: block;
+    width: 95px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.faceItem li a img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.faceItemLeftAhover, .faceItemRigthAhover {
+    position: absolute;
+    top: 45px;
+    width: 32px;
+    height: 44px;
+}
+
+.faceItemLeftAhover {
+    left: 66px;
+    background-position: -410px -272px;
+}
+
+.faceItemLeft {
+    background-position: -410px -228px;
+}
+
+.faceItemRigthAhover {
+    right: 66px;
+    background-position: -442px -272px;
+}
+
+.faceItemRigth {
+    background-position: -442px -228px;
+}
+
+.choiceBox {
+    width: 400px;
+    height: 180px;
+    overflow: hidden;
+    overflow-y: auto;
+    margin: 10px auto;
+}
+
+.choiceBox a {
+    display: block;
+    width: 364px;
+    height: 57px;
+    font: 25px/57px arial;
+    color: #fff;
+    text-shadow: 1px 1px 3px 0 #999;
+    background-position: 0 -606px;
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.choiceBox a:hover {
+    background-position: 0 -663px;
+}
+
+.choiceBox a:hover, .choiceBox a.ahover {
+    background-position: 0 -720px;
+}
+
+.newIcon {
+    position: absolute;
+    width: 68px;
+    height: 66px;
+    background-position: -506px -228px;
+    margin: -15px 0 0 -170px;
+}
+
+#selectCard, .textLeft {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.textLeft {
+    color: #002aa1;
+    width: 74px;
+    margin-right: 20px;
+    text-align: center;
+    font: bold 20px/1.333 arial;
+    margin-right: 10px;
+}
+
+#selectCard {
+    width: 200px;
+    padding: 5px;
+    color: #999;
+    font: 16px/20px arial;
+    border-radius: 5px;
+}
+
+.topUpinnerBox {
+    width: 326px;
+    height: 222px;
+    background: url(img/topUpinnerBox.png) no-repeat 0 0;
+}
+
+.topUpinnerBoxCon {
+    padding: 45px 30px 0;
+}
+
+.topUpinnerBoxCon label {
+    color: #002aa1;
+    font: 16px/1.5 arial;
+}
+
+.topUpinnerBoxCon label span {
+    display: inline-block;
+    width: 100px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.slectArea {
+    padding: 5px 0 10px;
+}
+
+.facebookIcon {
+    display: block;
+    margin: 10px 0 5px;
+    height: 24px;
+    background: url(img/facebookIcon.png) no-repeat 0 0;
+}
+
+.cardIcon {
+    background: url(img/cardIcon.png) no-repeat 0 0;
+    height: 17px;
+    padding-bottom: 5px;
+}
+
+.wrap_box_regBox {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.rowReg {
+    padding: 5px 20px;
+}
+
+.rowReg p {
+    padding-bottom: 5px
+}
+
+.rowReg * {
+    font: 600 20px/1.333 arial;
+    color: #00259e;
+    border-radius: 5px;
+}
+
+.rowReg .inputTextBox {
+    width: 300px;
+}
+
+.rowReg .inputTextBox, .rowReg select, .rowReg .textareaBox {
+    border: 1px solid #abadb3;
+    font: 200 20px/1.333 arial;
+}
+
+.rowReg select {
+    padding: 3px;
+}
+
+.textareaBox {
+    width: 600px;
+    height: 150px;
+}
+
+/* add pop box style 20130618 */
+* {
+    margin:0;
+    padding:0;
+}
+.popWrap {
+    background: transparent;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    height:750px;
+}
+.popBox {
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.popBox2Wrap {
+    background: #282828;
+}
+.popBox1 {
+    width:526px;
+    height:381px;
+    margin-left:-263px;
+    margin-top:-190px;
+    background:url(img/popBox1.png) no-repeat 0 0;
+}
+.popBox2 {
+    width:720px;
+    height:470px;
+    margin-left:-360px;
+    margin-top:-235px;
+    background:url(img/popBox2.png) no-repeat 0 0;
+}
+.popBox3 {
+    width:771px;
+    height:456px;
+    margin-left:-385px;
+    margin-top:-228px;
+    background:url(img/popBox3.png) no-repeat 0 0;
+}
+.popBox4 {
+    width:680px;
+    height:589px;
+    margin-left:-340px;
+    margin-top:-294px;
+    background:url(img/popBox4.png) no-repeat 0 0;
+}
+.popBox5 {
+    width:727px;
+    height:515px;
+    margin-left:-363px;
+    margin-top:-257px;
+    background:url(img/popBox5.png) no-repeat 0 0;
+}
+.popInner {
+    font:600 14px/1.5 '\5FAE\8F6F\96C5\9ED1',Arial;
+}
+.inputBox,.submitBtn1,.submitBtn2 {
+    border:0 none;
+    background:transparent;
+    padding:0;
+    margin:0;
+}
+.submitBtn1,.submitBtn2 {
+    cursor: pointer;
+}
+.inputBox {
+    color:#000;
+}
+.popInner p {
+    padding: 3px 0 5px;
+}
+.popInner label {
+    width:145px;
+    float:left;
+    display: inline;
+    margin-right:10px;
+    text-align: right;
+}
+.submitArea {
+    padding:5px 5px 5px 155px;
+}
+
+.popBox1 .popInner {
+    padding:70px 5px 0;
+}
+.popBox1 label {
+    color: #0048ff;
+}
+.popBox1 p {
+    color:#ffe400;
+}
+.popBox1 .inputBox {
+    padding:3px;
+    background: #fff;
+    border:1px solid #a5aebf;
+    width:155px;
+}
+
+.popBox2 .popInner {
+    padding:130px 5px 0 167px;
+}
+.popBox2 label {
+    color: #fff;
+}
+.popBox2 p {
+    color:#5fff01;
+}
+.popBox2 .inputBox {
+    padding:3px;
+    background: #fff;
+    border:1px solid #a5acbe;
+    width:155px;
+}
+
+.popBox3 .popInner {
+    padding:133px 5px 0 243px;
+}
+.popBox3 label {
+    color: #000;
+}
+.popBox3 p {
+    color:#0152bb;
+}
+.popBox3 .inputBox {
+    padding:3px;
+    background: #d3d09d;
+    border:1px solid #1e5d04;
+    width:210px;
+}
+
+.popBox4 .popInner {
+    padding:250px 5px 0 90px;
+}
+.popBox4 label {
+    color: #fff;
+}
+.popBox4 p {
+    color:#5c01da;
+}
+.popBox4 .inputBox {
+    padding:3px;
+    background: #fff;
+    border:1px solid #a6adbf;
+    width:210px;
+}
+
+.popBox5 .popInner {
+    padding:192px 5px 0 16px;
+}
+.popBox5 label {
+    color: #ff6002;
+}
+.popBox5 p {
+    color:#0058da;
+}
+.popBox5 ul {
+    background:rgba(255,255,255,0.6);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding:8px 0 2px;
+    margin-right:192px;
+    margin-bottom: 5px;
+}
+.popBox5 .inputBox {
+    padding:3px;
+    background: #fff;
+    border:1px solid #a6adbf;
+    width:210px;
+}
+
+.submitBtn1 {
+    width:163px;
+    height:52px;
+    background: url(img/submitBtn1.png) no-repeat 0 0;
+}
+.submitBtn2 {
+    width:206px;
+    height:75px;
+    background: url(img/submitBtn2.png) no-repeat 0 0;
+    margin:-10px 0 -10px -10px;
+}
+
+.ftLink {
+    padding-left:110px;
+    height:96px;
+    overflow: hidden;
+}
+.ftLink a {
+    display: inline-block;
+    margin:0 3px;
+    vertical-align: middle;
+    width:72px;
+    height: 104px;
+    background: url(img/ftLinkaBtn.png) no-repeat 0 0;
+}
+.ftLink .yahooIcon {
+    background-position: 0 0;
+}
+.ftLink .tweetIcon {
+    background-position: -73px 0;
+}
+.ftLink .fackbookIcon {
+    background-position: -148px 0;
+}
+.ftLink .googleIcon {
+    background-position: -223px 0;
+}
+.popBox4 .ftLink {
+    margin-top: -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
