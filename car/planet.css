@@ -1,0 +1,523 @@
+/*http://{_IMGHOST_}/i4/planet/*/
+.hideText,.hideText:hover {
+    color:transparent;
+    overflow: hidden;
+    text-decoration: none;
+}
+.textElii,.trophyName,.dblock {
+    display: block;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow:ellipsis;
+}
+.planetWrap {
+    margin-top: 36px;
+    width:811px;
+    height:555px;
+    background: url(img/planetWrapBg.jpg) no-repeat 0 0;
+    overflow: hidden;
+}
+.pullGameWrap {
+    background-image:url(img/pullGameWrapBg.jpg);
+}
+.planetHeader {
+    padding:14px 0 0 21px;
+}
+
+.dibWrap,.planetHeader,.planetMainWrap {
+    font-size: 0;
+    *word-spacing:-1px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .dibWrap,.planetHeader,.planetMainWrap {
+        letter-spacing: -5px;;
+    }
+}
+.dib,.planetName,.planetCarWrap,.trophyBlock,.planetMainWrap li,.planetCaption,.planetInfo,.planetCarCaption {
+    display: inline-block;
+    *display: inline;
+    *zoom:1;
+    font-size: 12px;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+.planetName,.planetCarWrap,.trophyBlock,.planetMainWrap li,.planetCaption,.planetInfo,.planetCarCaption {
+    vertical-align: top;
+}
+
+.planetCaption {
+    width:120px;
+    height:20px;
+    padding-top: 75px;
+    text-align: center;
+    margin:0 25px 0 210px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+}
+.planet01 {
+    background-image: url(img/planet01.png);
+}
+.planet02 {
+    background-image: url(img/planet02.png);
+}
+.planet03 {
+    background-image: url(img/planet03.png);
+}
+.planet04 {
+    background-image: url(img/planet04.png);
+}
+.planet05 {
+    background-image: url(img/planet05.png);
+}
+.headerHight {
+    height: 114px;
+    overflow: hidden;
+}
+.planetCarCaption {
+    width: 125px;
+    text-align: center;
+    color: #fff;
+}
+.planetCarCaptionImg {
+    display: block;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.planetCarCaptionObj {}
+.planetInfo {
+    width:240px;
+    padding-top: 23px;
+    padding-right: 25px;
+    color:#fff;
+}
+.enterLink,.enterLink:hover {
+    color:#ff0000;
+    text-decoration: none;
+}
+
+
+.planetName {
+    width:195px;
+    height:80px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.planetCarWrap {
+    width:125px;
+    height:100px;
+    padding: 0 25px 0 30px;
+    text-align: center;
+    color:#fff;
+}
+.planetCar {
+    display: block;
+    height: 52px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.planetBtnIcon,.planetBtnIcon1 {
+    display: inline-block;
+    width:60px;
+    height: 25px;
+    background: url(img/planetChangeBtnBg.png) no-repeat 0 0;
+    line-height: 25px;
+    color:#d4d2d2;
+    text-decoration: none;
+}
+.planetBtnIcon1 {
+    color: #fff;
+    background-position: -60px 0;
+}
+.planetBtnIcon:hover,.planetBtnIcon1:hover {
+    color:#d4d2d2;
+    text-decoration: none;
+}
+.planetBtnIcon1:hover {
+    color:#fff;
+}
+.trophyBlock {
+    width:95px;
+    color:#fff;
+    background:url(img/trophyBlockBg.png) no-repeat 0 0;
+    padding-top: 80px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+}
+.grayTrophy {
+    background-position: -95px 0;
+}
+.trophyNum {
+    position: absolute;
+    top:63px;
+    left:50px;
+    color:#fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    height: 15px;
+    line-height: 15px;
+    padding:0 3px;
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(top,  rgba(255,0,0,1) 0%, rgba(160,1,1,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,0,1)), color-stop(100%,rgba(160,1,1,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,0,0,1) 0%,rgba(160,1,1,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,0,0,1) 0%,rgba(160,1,1,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,0,0,1) 0%,rgba(160,1,1,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,0,0,1) 0%,rgba(160,1,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#a00101',GradientType=0 );
+}
+:root .trophyNum {
+    filter: none\9;
+}
+.trophyName,.dblock {
+    display: block;
+}
+.planetMainWrap {
+    text-align: center;
+    padding-top: 85px;
+}
+.planetMainWrap li {
+    width:136px;
+    height: 180px;
+    text-align: center;
+    color:#fff;
+    margin:30px;
+}
+.planetPlace {
+    position: relative;
+    margin:10px 0 20px;
+}
+.planetPlace img {
+    width:134px;
+    height: 100px;
+    border:1px solid #fff;
+    vertical-align: middle;
+}
+.iconLock,.iconLock1 {
+    position: absolute;
+    top:-15px;
+    left: -13px;
+    width:25px;
+    height:31px;
+    background:url(img/iconLock.png) no-repeat 0 0;
+}
+.stripBar {
+    position: absolute;
+    top:41px;
+    right:-60px;
+    width:60px;
+    height: 18px;
+    background:url(img/stripBar.png) no-repeat 0 0;
+}
+.planetMainWrap .four .stripBar {
+    display: none;
+}
+.planetAarea {
+    position: absolute;
+    top:-21px;
+    left:-22px;
+    width:180px;
+    height:144px;
+    background:url(img/planetAareaBg.png) no-repeat 0 0;
+    display: none;
+}
+.planetMainWrap .one .planetAarea {
+    background-position: 0 0;
+}
+.planetMainWrap .two .planetAarea {
+    background-position: -180px 0;
+}
+.planetMainWrap .three .planetAarea {
+    background-position: -360px 0;
+}
+.planetMainWrap .four .planetAarea {
+    background-position: -540px 0;
+}
+.unLock .planetAarea {
+    display: block;
+}
+.unLock .iconLock {
+    display: none;
+}
+.unLock .stripBar {
+    background-position: 0 -18px;
+}
+.BtnIconWrap {
+    text-align: center;
+}
+.planetMainWrap .BtnIconWrap {
+    display: none;
+}
+.planetBtnReturn,.planetBtnReturn:hover {
+    color:#fff;
+    text-decoration: none;
+}
+.planetBtnReturn {
+    display: inline-block;
+    width:150px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    padding-top:67px;
+}
+.ballStartWrap {
+    position: relative;
+    height: 425px;
+}
+.ballStartWrap li,.lightLine,.textureLine,.ballStartCell,.ballStartCellIner,.ballStartUnknown {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.ballStartWrap li,.lightLine,.textureLine,.ballStartCell,.ballStartUnknown {
+    position: absolute;
+}
+.ballStartWrap li {
+    text-align: center;
+    color: #fff;
+}
+.lightLine,.five .textureLine5,.unLock .textureLine5,.ballStartCellIner {
+    display: none;
+}
+.ballStartWrap .one,.one .ballStartCell,.one .ballStartCellIner {
+    width:106px;
+    height:106px;
+}
+.ballStartWrap .two,.two .ballStartCell,.two .ballStartCellIner {
+    width:170px;
+    height:171px;
+}
+.ballStartWrap .three,.three .ballStartCell,.three .ballStartCellIner {
+    width:197px;
+    height:197px;
+}
+.ballStartWrap .four,.four .ballStartCell,.four .ballStartCellIner {
+    width:173px;
+    height:122px;
+}
+.ballStartWrap .five,.five .ballStartCell,.five .ballStartCellIner,.five .ballStartUnknown {
+    width:120px;
+    height:120px;
+}
+.ballStartWrap .one {
+    top:64px;
+    left:85px;
+    z-index: 2;
+}
+.ballStartWrap .two {
+    top:150px;
+    left:163px;
+    z-index: 2;
+}
+.ballStartWrap .three {
+    top:98px;
+    left:318px;
+    z-index: 2;
+}
+.ballStartWrap .four {
+    top:224px;
+    left:497px;
+    z-index: 1;
+}
+.ballStartWrap .five {
+    top:82px;
+    left:657px;
+    z-index: 1;
+}
+.ballStartWrap .one .lightLine {
+    top:-87px;
+    left:60px;
+    width:191px;
+    height: 160px;
+    background-image: url(img/lightLine01.png);
+}
+.ballStartWrap .two .lightLine {
+    top:-179px;
+    left:69px;
+    width:104px;
+    height: 257px;
+    background-image: url(img/lightLine02.png);
+}
+.ballStartWrap .three .lightLine {
+    top:-133px;
+    left:-76px;
+    width:182px;
+    height: 221px;
+    background-image: url(img/lightLine03.png);
+}
+.ballStartWrap .four .lightLine {
+    top:-293px;
+    left:-256px;
+    width:397px;
+    height: 389px;
+    background-image: url(img/lightLine04.png);
+}
+.ballStartWrap .five .lightLine {
+    top:-149px;
+    left:-415px;
+    width:498px;
+    height: 263px;
+    background-image: url(img/lightLine05.png);
+}
+.one .textureLine1 {
+    top:61px;
+    left:58px;
+    width:101px;
+    height: 106px;
+    background-position: 0 0;
+    background-image:url(img/textureLine01.png);
+}
+.unLock .textureLine1 {
+    background-position: 0 -106px;
+}
+.two .textureLine2 {
+    top:40px;
+    left:95px;
+    width:134px;
+    height: 53px;
+    background-position: 0 0;
+    background-image:url(img/textureLine02.png);
+}
+.unLock .textureLine2 {
+    background-position: 0 -53px;
+}
+.three .textureLine3 {
+    top:108px;
+    left:121px;
+    width:126px;
+    height: 74px;
+    background-position: 0 0;
+    background-image:url(img/textureLine031.png);
+}
+.unLock .textureLine3 {
+    background-position: 0 -74px;
+}
+.four .textureLine4 {
+    top:-57px;
+    left:101px;
+    width:99px;
+    height: 108px;
+    background-position: 0 0;
+    background-image:url(img/textureLine04.png);
+}
+.unLock .textureLine4 {
+    background-position: 0 -108px;
+}
+.ballStartCell,.five .ballStartUnknown {
+    top:0;
+    left:0;
+}
+.one .ballStartCell {
+    background-image: url(img/ballStart01.png);
+}
+.one .ballStartCellIner {
+    background-image: url(img/ballStart01Hover.png);
+}
+.two .ballStartCell {
+    background-image: url(img/ballStart02.png);
+}
+.two .ballStartCellIner {
+    background-image: url(img/ballStart02Hover.png);
+}
+.three .ballStartCell {
+    background-image: url(img/ballStart03.png);
+}
+.three .ballStartCellIner {
+    background-image: url(img/ballStart03Hover.png);
+}
+.four .ballStartCell {
+    background-image: url(img/ballStart04.png);
+}
+.four .ballStartCellIner {
+    background-image: url(img/ballStart04Hover.png);
+}
+.five .ballStartCell {
+    background-image: url(img/ballStart05.png);
+}
+.five .ballStartCellIner {
+    background-image: url(img/ballStart05Hover.png);
+}
+.five .ballStartUnknown {
+    background-image:url(img/ballStartUnknown.png);
+}
+.one .iconLock1 {
+    top:62px;
+    left:58px;
+}
+.two .iconLock1 {
+    top:80px;
+    left:90px;
+}
+.three .iconLock1 {
+    top:100px;
+    left:112px;
+}
+.four .iconLock1 {
+    top:60px;
+    left:100px;
+}
+.five .iconLock1 {
+    top:70px;
+    left:75px;
+}
+.barStartName {
+    position: relative;
+}
+.one .barStartName {
+    top: -5px;
+}
+.two .barStartName {
+    top: 20px;
+}
+.three .barStartName {
+    top: 27px;
+}
+.four .barStartName {
+    top: -5px;
+}
+.five .barStartName {
+    top: -15px;
+}
+.ballStartWrap li .BtnIconWrap {
+    position: absolute;
+    display: none;
+}
+
+.ballStartWrap .one .BtnIconWrap {
+    top: 95px;
+    left:24px;
+}
+.ballStartWrap .two .BtnIconWrap {
+    top: 135px;
+    left:54px;
+}
+.ballStartWrap .three .BtnIconWrap {
+    top: 155px;
+    left:64px;
+}
+.ballStartWrap .four .BtnIconWrap {
+    top: 110px;
+    left:57px;
+}
+.ballStartWrap .five .BtnIconWrap {
+    top: 120px;
+    left:30px;
+}
+.unLock .iconLock1 {
+    display: none;
+}
+.planetCuror .ballStartCellIner,.planetCuror .lightLine,.planetMainWrap li:hover .BtnIconWrap {
+    display: block;
+}
+.unLock .ballStartCell:hover .ballStartCellIner {
+    display: block;
+}
+.ballStartWrap li.unLock:hover .BtnIconWrap {
+    display: block;
+}
+.dbloc {
+    display: block;
+}
