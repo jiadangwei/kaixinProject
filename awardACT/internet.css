@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+/* ------ 2012 reset header ------ */
+.act_hd #awardHd a.logo {background:url(img/act_kxlogo.png) no-repeat;}
+.act_hd #awardHd .wrap {width:1004px;}
+.act_hd #awardHd,.act_hd #awardHd .wrap,.act_hd .hdNavMenu .on,.act_hd .serv_sub li a:hover {background-color:#acd7ef}
+.act_hd .hdNavMenu,.act_hd .hdNavMenu .hdSelc,.act_hd .hdNav {color:#fff}
+.act_hd .hdNavMenu .hdSelc:hover{color:#fff;}
+.act_hd #awardHd,.act_hd #awardHd .wrap {background:#fff url("img/act_hd_bg.png") repeat-x; height:44px;}
+
+/* ------ 2012 reset footer ------ */
+.act_ft {padding-top:10px;}
+.act_ft #footer {width:1004px;}
+
+/* ------ 2012 reset turn paye ------ */
+a.fy2 {background-color:#418cd8; border:1px solid #2b76c2;}
+a.fy2:hover {color:#e1ecf8;}
+a.fy { border:1px solid #418cd8; color:#418cd8;}
+a.fy2:hover,a.fy:hover {text-decoration: none;}
+
+/* ------ 2012 reset body background ------ */
+body {font-family:Arial;}
+.act_bd_bg {background:#cae5eb;}
+.act_main_bg {min-height:700px; _height:700px;}
+.act_main_bg,.act_banner {background:url("img/act_big_bg1.jpg") no-repeat 50% 0;box-shadow: inset 0 5px 8px -5px #333;}
+.fy_p {background-color:#fff !important;padding: 16px 0 14px;}
+
+/* ------ 2012 reset global ------ */
+h1 {display:none;}
+i {font-style:normal;}
+a {color:#336699; text-decoration:none;}
+a:hover {color:#3366cc; text-decoration:underline;}
+img,input {vertical-align:middle;}
+
+/* ------ 2012 global layout ------ */
+.act_width {width:1004px; margin:0 auto;}
+.act_maincon_bg {background:#fff; padding:10px 0; border:0 none;}
+
+/* ------ 2012 banner ------ */
+.act_banner {height:265px;}
+.act_join_num_wrap {height:214px; position:relative}
+.act_join_num {position:absolute; width:190px; text-align:center; left:430px; top:132px; color:#fff; font:16px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia';}
+.act_join_num i {font-size:20px;}
+
+/* ------ 2012 nav ------ */
+.act_nav_wrap {height:49px; overflow:hidden; border:1px solid #0b76a2;}
+.act_nav {border-left:1px solid #80beda;border-right:1px solid #80beda; height: 100%; background: url(img/act_navbg.png) repeat-x; text-align: center;}
+.act_nav_inner {display: inline-block; *display: inline; *zoom:1; overflow: hidden;}
+.act_nav span {display:inline-block; height: 100%; padding:0 33px 0 30px; line-height: 49px; background: url(img/act_navlibg.png) no-repeat right center; margin-right: -3px;}
+.act_nav span a {color:#fff; font:500 15px/49px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; display: block;}
+.act_nav span a:hover {color:#fff; text-decoration: none;}
+
+
+/* ------ 2012 css sprite ------ */
+
+/* ------ css reset wenming ------ */
+.photoAct_hd,.actState h2,.actState {color:#378ec6;}
+.awardBox dl dd p {height:55px; margin-bottom:2px;}
+
+/* ------ css iwant btn ------ */
+.act_bluebtn {display:inline-block;text-decoration:none;height:17px;*height:14px; font-size:12px; font-family:arial; line-height:16px; *line-height:13px; vertical-align:middle; }
+.act_bluebtn:hover {text-decoration:none;}
+.act_bluebtn i,.act_bluebtn span {display:block;}
+.act_bluebtn i {padding-top:1px; background:#2d8bc6; border-left:1px solid #f7f7f7; border-right:1px solid #f7f7f7;}
+.act_bluebtn span {cursor:pointer; background:#f1f9fc; color:#2d8bc6; border-left:1px solid #2d8bc6; border-right:1px solid #2d8bc6; overflow:hidden; padding:0 5px; *padding:1px 5px 0;}
+
+/* ------ css act_menuside ------ */
+.act_menuside {border:1px solid #fff; padding:13px 0;}
+.act_menuside a {display: block; width:191px; height:50px; margin:0 auto; background: url(img/act_menuside_btnBg.png) no-repeat; font-size:0px; color: transparent;}
+.act_menuside a.act_invite_btn {margin-top: 18px; background-position: 0 -51px;}
+
+/* css act_info */
+.act_info_wrap {border:1px solid #fff; margin:-5px -10px -10px;padding:5px 10px 10px;}
+.photoAct_hd,.act_info_h2title {
+	position: relative;
+	top:-12px;
+	background: url(img/act_info_h2title.png) no-repeat;
+	color:#fff;
+	text-shadow: 1px 1px 0 #81b3cd;
+	height:37px;
+	font:500 14px/37px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia';
+	padding-left:15px;
+}
+.actState .act_info_h2title {
+	color: #fff;
+}
+.act_info_con p {
+	margin-bottom: 10px;
+}
+
+/* css act award info */
+.act_award_item {
+	padding:0 15px;
+	margin-top: -15px;
+	position: relative;
+	overflow: hidden;
+}
+.act_award_item li {
+	border-bottom: 1px solid #e1e1e1;
+	padding: 15px 0;
+	margin-bottom: -1px;
+}
+.act_award_jpg {
+	border: 1px solid #d3d3d3;
+	background: #fff;
+	text-align: center;
+	height: 115px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.act_award_jpg img{
+	vertical-align: middle;
+	max-width: 160px;
+}
+.act_award_jpg b {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1px;
+	height: 100%;
+	margin-left: -1px;
+	font-size: 0;
+}
+.act_award_name {
+	text-align: center;
+	display: block;
+	word-wrap:normal;
+	white-space: nowrap;;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+	margin:0 5px;
+}
+
+/* ------ css act info ------ */
+.active_info .photoAct_item h1 {padding:30px 20px 10px 40px; }
+.active_info p {padding:5px 40px; font:14px/1.5 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia';}
+.active_info p.actinfoTitle {font-size: 16px; padding-top: 10px; font-weight: bold;}
+.active_info .photoAct_item {border-radius:9px; -moz-border-radius:9px; -webkit-border-radius:9px;}
+.active_info .activityRules,.active_info .photoAct_item {margin-bottom:0}
+.active_info .activityRules {color:#333}
+.active_info .activityRules h1,.active_info  .awardDetailBox h1 {color:#2d729e; text-shadow:5px 2px 6px #b4ddf7}
+
+/* ------ css partners ------ */
+.photoAct_item_innerwrap {text-align:justify; *text-justify:inter-ideograph;}
+.photoAct_item_innerwrap:after {content:"."; display:inline-block; width:100%; font-size:0; line-height:0; height:0; visibility:hidden;}
+.strategy a,.partners a {display:inline-block; position:relative; overflow:hidden; margin-top:5px;}
+.strategy a { background:#fff; border:1px solid #eee;width:100%; height:58px; }
+.partners a {width:48%; height:50px; *margin-right:5px; *width:46%;}
+.tcvm span {position:absolute; top:50%; left:50%; width:2000px; height:2000px; margin-left:-1000px; margin-top:-1000px; text-align:center; *line-height:2000px; *font-size:1790px; cursor:pointer;}
+.tcvm span:after {content:"."; display:inline-block; width:0; font-size:0; height:2000px; vertical-align:middle;}
+.tcvm span img {vertical-align:middle;}
+
+/* ------ css rank num------ */
+.act_num_area {height:0; overflow:hidden; text-align:right;}
+
+.act_num_area span {position:absolute; margin:8px 0 0 -100px; background: url(img/act_num_area.png) no-repeat; width: 90px; height:35px; font-size: 0; color: transparent;}
+.act_num_area span.actNum1 {background-position: 0 0;}
+.act_num_area span.actNum2 {background-position: 0 -36px;}
+.act_num_area span.actNum3 {background-position: 0 -72px;}
+.chartsBox dd .chartsBoxImg {margin-bottom:12px;}
+.mt25reset .mt25 {margin-top:20px;}
+
+/*css navSubArea*/
+.navSubArea {
+	border-bottom: 1px solid #eee;
+	margin:0 2px 0 12px;
+}
+.navSubArea a {
+	display: inline-block;
+	width:133px;
+	height: 41px;
+	font:500 14px/41px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia';
+	color:#fff;
+	text-shadow:1px 1px 0 #999;
+	text-align: center;
+	background:url(img/navSubArea.png) no-repeat;
+	margin-right: 3px;
+	text-decoration: none;
+}
+.navSubArea a:hover {
+	text-decoration: none;
+	color:#fff;
+}
+
+/* css toprank img */
+.chartsBox dt.toprank {
+	text-align: center;
+	background: #fafafa;
+}
+.chartsBox dt.toprank a.aArea:hover {
+	text-decoration: none;
+}
+.chartsBox dt.toprank img {
+	vertical-align: middle;
+	max-width: 230px;
+}
+.placehodler {
+	width: 1px;
+	font-size: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* ------ css addfriend btn ------ */
+.act_addfriendbtn {display:inline-block;border:1px solid #5083bd; margin-top:3px;}
+.act_addfriendbtn a { height:21px; font:12px/21px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia';display:inline-block;padding:0 8px; border:1px solid #5e9cdb; border-left:1px solid #87bef6; border-top:1px solid #87bef6; background:#578ecf}
+.act_addfriendbtn a,.act_addfriendbtn a:hover {text-decoration:none; color:#fff;}
+.addfriendbtn_area .act_addfriendbtn {border:0;}
+.addfriendbtn_area .act_addfriendbtn a {background:#3ea2ff; border:0; padding:0 4px;}
+
+/* ------ css user grounp ------ */
+.act_user_grounp {text-align:justify; text-justify:inter-ideograph; font-size:0; margin-top:5px; border-top:1px dotted #BFBFBF; padding-top:10px;}
+.act_user_grounp:after {content:"."; display:inline-block; width:100%; height:0; visibility:hidden;}
+.act_user_grounp span {display:inline-block;border:1px solid #dfddeb; padding:1px; background:#fff; width:30px; height:30px; vertical-align:middle;}
+.act_user_grounp span img {width:30px; height:30px;}
+.act_user_grounp span.end {text-align:center; width:13px; border:1px solid #dcd9d9; padding:0;}
+.act_user_grounp span.end a {font-size:22px; line-height:27px; color:#c5c5c5}
+.act_user_grounp span.end a,.act_user_grounp span.end a:hover {text-decoration:none;}
+
+/* ------ css close btn ------ */
+.act_closearea {height:0; overflow:hidden; position:relative; text-align:right;}
+.ahovercl .act_closearea {position:static;}
+.act_closearea a {position:absolute; width:25px; height:25px; margin-top:-12px; margin-left:-10px; background:#79bceb; font:22px/23px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; text-align:center;}
+.act_closearea a,.act_closearea a:hover {color:#fff; text-decoration:none;}
+.act_closearea a:hover {background:#357eb2;}
+
+/* ------ css info ------ */
+.info_lf,.info_rt {float:left; display:inline}
+.info_lf {width:100%;}
+.info_lf_con {margin-right:620px}
+.info_rt {width:590px; margin-left:-590px;}
+.info_con {border:1px solid #a1c5dd; background:#f2f8fc; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; -moz-box-shadow:innser 2px 2px 2px red; -webkit-box-shadow:innser 2px 2px 2px red; box-shadow:innser 2px 2px 2px red; padding:30px 40px; height:640px; color:#006699;}
+.info_con h2,.method_con h2 {font:25px/1.5 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; text-shadow:1px 1px 0 #fff; color:#006699;}
+.info_con p {font:14px/1.5 Tahoma, Arial, Helvetica; padding:15px 0; text-align:justify;}
+.info_con p.ti28 {text-indent:-16px; padding-left:16px;}
+.pd20bt {margin-bottom:20px;}
+.method_nav {color:#115d88; margin-top:10px;}
+.method_nav i {font-style:normal;}
+.method_nav span {text-shadow:0 1px 0 #fff; height:32px; font:18px/32px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; display:inline-block; width:216px; background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAAgCAYAAABw4baZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIwSURBVHhe7Zw7SwNREIX3/xei9iIEsdCIMcZGC7skWmge+IggggY0IdGo0fY6M8vGzcPC7Gz3CQOZIs1wvjnnjmgUzfxsXAzC8f1HKN2MwtHde2j3vq30Mz3zQA/zPJx3v0KhOQzrZ/0wy9OkX6v3w4mABUgsEhbpcou0+fIdCo3hPGQr1V6oPo5xKpyaBeuQ1Lbbr9OQpZ2rJSLTSpyMnnmgh//zsHk5iCHTN1dLrA2g4mjIQmGheCyUw84orNbkTbbVGiIswGKx5JDcSrejEO3LtbCSEph+pv91MuaBHpbl4fThM0R6+VBLREgIaVkhoZ/F/BSv30KUvDkADMAAzDe57ClglY4IS0oPHVr0zAM9+PBQ744BjIXCQslroRhgOBfOTXLJJ7lZREwA07u9Fn0MHPNAD1l5sCMHQkJIWYXE9xcbU/1JImICmJ7rtehj4JgHesjKgwGGkBBSViHx/cXGZBERwAAMQPJJblNvMEADNEDzBa3GG8x3oAiUeaZvGAYYzoVzsRjyWQzFq9QbrCyXM60EOHrmgR6y8bCrgAESIAFSNpD+mp9FxLL8UZjWxLnomQd6cOFh6g0GaCwaFq2v0VhExLniIwcLhgXjvWAMsAOJA1oJaPTMAz348GAREaAACqB8gFKTSvNUTf8eDNAADdB8QbOI2BDqtBLA6JkHevDhwQDT/92m1XgWYUnRMw/04MODRUSAAiiA8gFq1qAMMJwL5ya55JPcdiQi/gBvyHR+EV71VgAAAABJRU5ErkJggg==") no-repeat; *background-image:url(http://view.kaixin001.com.cn/pic/award2012/fathersday/method_nav_bg.png); text-align:center; position:relative; bottom:-1px; margin-left:1px;}
+.method_info {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAiSURBVBhXYzj88NN/EL719jsYM2AIwGRgEgwwgUNAbSAMAMLJOo+2MSzHAAAAAElFTkSuQmCC") repeat; *background-image:url(http://view.kaixin001.com.cn/pic/award2012/fathersday/method_info_bg.png); -moz-border-radius-bottomleft:6px; -webkit-border-bottom-left-radius:6px; -moz-border-radius-bottomright:6px; -webkit-border-bottom-right-radius:6px; border:1px solid #a1c5dd; margin-bottom:35px; -moz-box-shadow:0 3px 2px #9acae5; -webkit-box-shadow:0 3px 2px #9acae5;}
+.method_con {padding:50px 0; text-align:center;}
+.method_con h2 {display:inline-block; *display:inline; *zoom:1; vertical-align:middle;}
+.inputbox1 {padding:0; margin:0 10px; border:0; color:#b4b4b4; height:46px; line-height:46px \9; width:376px; padding-left:10px; background:url("data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAYIAAAAuCAYAAAAlUx6oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOrSURBVHhe7dtdSyJxHMXxef/vwKYH2lohd4mMxBYvKg22wELLogujLhIJIjXrogzPcmYx1mhfgP6+A3PRdrP/j4dzmp02ST5dlXZPxeNL5bd/aSFNlcvluDEgA2SADMxwBtzl7nR3uzv+c+9PfV1q3ChdXlGhUFCpVNL+/r4ODg5UrVa5MSADZIAMzGAG3OHucne6u90d767/cgwKlUPl83nt7e2p0Wjo6upK19fXur295caADJABMjDDGXCXu9Pd7e54d707f2oMikcX2tjY0OnpaVb+9/f36vV6Gg6Hen5+1svLCzcGZIAMkIEZzIA73F3uTne3u+Pd9e58/1NRNgaV9mP2LuDs7EydTkdPT096fX3V+/u7xuOxuBBAAAEEZlvAXe5Od7e74931zWYz6/7snYGfBnZ3d7Nv+Cd/BmC2P3D+9ggggMD/BCaD4K5355fL5b9PBWs/t9VqtbKV8AhwIYAAAgjMt4C73p1/fn6u9c0dJenikrrdbvbIwIUAAgggEEPAnX93d6el1TUl/n8C/X6fp4EYnz2nRAABBDIBPxX4BbI3IBsCv1HmxTDpQAABBOIIuPPd/R9D4F8v4kIAAQQQiCXg7v8YAr9B5kIAAQQQiCXg7mcIYn3mnBYBBBCYEmAICAQCCCAQXIAhCB4Ajo8AAggwBGQAAQQQCC7AEAQPAMdHAAEEGAIygAACCAQXYAiCB4DjI4AAAgwBGUAAAQSCCzAEwQPA8RFAAAGGgAwggAACwQUYguAB4PgIIIAAQ0AGEEAAgeACDEHwAHB8BBBAgCEgAwgggEBwAYYgeAA4PgIIIMAQkAEEEEAguABDEDwAHB8BBBBgCMgAAgggEFyAIQgeAI6PAAIIMARkAAEEEAguwBAEDwDHRwABBBgCMoAAAggEF2AIggeA4yOAAAIMARlAAAEEggswBMEDwPERQAABhoAMIIAAAsEFPoYgXVzScDgMzsHxEUAAgXgCg8FAiyurSr792FK3240nwIkRQACB4AKdTkfrmztKtn63dHJyovF4HJyE4yOAAAJxBNz59XpdxaMLJZX2oxbSVKPRKI4AJ0UAAQSCC7y9vWXd7w1IfPmpoFarBWfh+AgggEAcAXd+9jTw71WoHKparcovD7gQQAABBOZTwB3vrnfnT43A5ItS40bp8oqazaYeHh7mU4FTIYAAAgEF3Onudne8u/7LEZj8YaXdU/H4Ut+LZeVyOW4MyAAZIANzkAF3urvdHf95BP4AYCYCtheDX4EAAAAASUVORK5CYII=") no-repeat;*background-image:url(http://view.kaixin001.com.cn/pic/award2012/fathersday/inputbox1.png)}
+.submit_btn1 {display:inline-block; width:126px; height:46px; vertical-align:middle; background:url("data:image/png;base64,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") no-repeat; *background-image:url(http://view.kaixin001.com.cn/pic/award2012/fathersday/submit_btn1.png)}
+
+/* ------ css tips ------ */
+.tips_con {font:24px/40px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; color:#a2a1a1; text-align:center; padding:50px 50px 70px;background:#f2f2f2; margin: 0 0 0 12px;}
+.tips_con p {padding:30px;}
+.tips_interv_btn { background:#f6f5f5; border:1px solid #dadada; display:inline-block; font:16px/36px 'MicroSoft YaHei', 'simHei', Tahoma, Arial, Helvetica, sans-serif, 'Georgia'; padding:0 15px; background:-moz-linear-gradient(top,#f5f5f5,#dcdbdb); background:-o-linear-gradient(top, #f5f5f5, #ccc); background:-webkit-linear-gradient(top, #f5f5f5, #ccc); filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#f5f5f5,endcolorstr=#cccccc,gradientType=0); text-shadow:0 1px 0 #fff; color:#949494; text-decoration:none;}
+.tips_interv_btn:hover {color:#949494; text-decoration:none;}
+
+/* ------ css ie6 ------ */
+.awardBox dl dd {_width:120px;}
+
+/* ------ css father gift model ------ */
+.mrglfrt6 {margin:0 -6px}
+.father_gift_item {overflow:auto; width:100%;}
+.father_gift_item li {width:33.3%; float:left; text-align:center; height:135px; overflow:hidden;}
+.father_gift_pic_link {display:block; width:70px; height:70px; border:1px solid #dcdcdc; overflow:hidden; background:#fff; margin:5px auto;}
+.father_gift_pic {height:70px;}
+.father_gift_author {word-wrap:normal;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin:0 0 5px 0}
+.btn_donate {display:inline-block; width:56px; height:25px; background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAZCAYAAABkdu2NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJYSURBVFhH3VhdS8MwFO0fFkXEH6AI4pPi16sK+iLqP1Dx3Wf1QQeCq6W0g7Exu3WLnNTbZTFpkrZKtwtl7dIm59xz782HNxgMmOoaDocsTVM2Ho9ZEw24gA84dRzwvyc3JknSWFI6R4MscKuIzhAcjUZ5H0GcsOuHgO1ctNjy3hNb2m3OBTzABXzASQb8MsmcIOQmu32M2OrBc6NI6RwMnMBLBh4iSU4QcQxL0wk7unmfC2IyYeAGfpiYl5wgFZKr+8+5JEdkEbIw8CEVPVLvI/yqLdcwCAalX9nb8v+mZ9v8R2760deMih7lXhn1XKYPW5I6p9iSJBUpF73JJIvbzdNX5/As8rzYpgItt6ucZUtKfG/r7O2nnmTFxqOOV/bdq6YciuKz6t4EuKp66H/9+IVTgnC9Xm9K0DS4ql1FUBe24vf0jilsy2Ci3McYURTVT9AWlKywjWNc+kZ/QRDUS1D0ngi4SH0bZW2J0Xs0tu/71QiKHaruy04VVXORCLbb7WpFRiRQFHImBU1V1kXBtcNpkeEEaZrYOHGfJnQE5bDTFRNdsXEhJL9L0wQW3pwgTfSXd+7LNJ3n5YJhqpa6AlMmVLFggfX7/YzgXyzVqihQ5Vss1bDkhMVxnBEUF9tlVKwCqO5vST1sfkGOTxOLuF0i9fhET9uKRdnwUu5BQb5UE3e/qiOL7fOW8yK87tBT9Qdc8pFFt9vloYkL6i3MoRNyLgzDnBzu8w2v6dhQDN2icv7fbaj+CEHKN1Ku0+n8PpMpOldEGzqC5KhK1FGTfoEL+IBT5vINcOLO9rtJpogAAAAASUVORK5CYII=") no-repeat; _background:url(http://view.kaixin001.com.cn/pic/award2012/fathersday/btn_donate.png) no-repeat;}

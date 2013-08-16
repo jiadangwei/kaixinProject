@@ -1,0 +1,17 @@
+@mixin mod($wd,$ht) {
+    width:$wd; 
+    height:$ht;
+}
+
+.box1 {
+    @include mod(100px,100px);
+    background:red;
+}
+.box2 {
+    @include mod(200px,200px);
+    background:yellow;
+}
+.box3 {
+    @include mod(300px,300px);
+    background:lightblue;
+}

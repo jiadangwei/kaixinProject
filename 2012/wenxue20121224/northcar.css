@@ -1,0 +1,133 @@
+.northCar {
+  margin-bottom: 10px; }
+
+.northCarTxt {
+  padding: 0 6px; }
+
+.northCarTilte {
+  border-bottom: 1px solid #cacaca;
+  padding: 0 10px; }
+  .northCarTilte a, .northCarTilte i, .northCarTilte span {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer; }
+  .northCarTilte i {
+    font-size: 0;
+    width: 0;
+    height: 100%;
+    visibility: hidden; }
+  .northCarTilte a, .northCarTilte a:hover {
+    color: #666;
+    text-decoration: none; }
+  .northCarTilte a {
+    height: 63px;
+    border: 1px solid #cacaca;
+    position: relative;
+    top: 1px;
+    width: 21%;
+    padding: 0 1%;
+    margin: 0 2px;
+    text-align: center;
+    font-family: "Microsoft YaHei",STHeiTi,Arial;
+    background: #f7f7f7;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f7f7f7 0%, #dddddd 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #dddddd));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f7f7f7 0%, #dddddd 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f7f7f7 0%, #dddddd 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f7f7f7 0%, #dddddd 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f7f7f7 0%, #dddddd 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#dddddd',GradientType=0 );
+    /* IE6-8 */ }
+    .northCarTilte a:hover, .northCarTilte a.ahover {
+      filter: none;
+      background: #fff;
+      border-bottom-color: #fff; }
+
+:root .northCarTilte a {
+  filter: none\9; }
+
+.northCarCon {
+  border: 1px solid #cacaca;
+  border-top: 0 none;
+  padding: 10px; }
+
+.northCarImg {
+  border-radius: 10px; }
+
+.northCarh2 {
+  color: #333;
+  height: 30px;
+  background: #eaeaea;
+  padding-left: 15px;
+  font: 14px/30px "Microsoft YaHei", STHeiTi, Arial;
+  margin: 5px 0; }
+
+.northCarItem {
+  font-size: 0; }
+  .northCarItem li {
+    width: 33.3%; }
+  .northCarItem .northCarImg {
+    width: 173px;
+    height: 118px; }
+  .northCarItem li {
+    font-size: 12px;
+    padding: 5px 0;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+    overflow: hidden; }
+    .northCarItem li a {
+      display: block;
+      text-align: center; }
+
+.northCarItem1 li {
+  width: 49.5%; }
+.northCarItem1 .northCarImg {
+  width: 275px;
+  height: 152px; }
+
+.northCarItem2 li {
+  width: 20%; }
+.northCarItem2 .northCarImg {
+  width: 109px;
+  height: 74px; }
+
+.northCarItem3 li {
+  width: 20%; }
+.northCarItem3 .northCarImg {
+  width: 106px;
+  height: 106px; }
+
+.northCarItem4 li {
+  width: 33.3%; }
+.northCarItem4 .northCarImg {
+  width: 181px;
+  height: 181px; }
+
+.northCarItem5 li {
+  width: 16.5%; }
+.northCarItem5 .northCarImg {
+  width: 90px;
+  height: 90px; }
+
+.northCarItem6 li {
+  width: 33.3%; }
+.northCarItem6 .northCarImg {
+  width: 180px;
+  height: 120px; }
+
+.northCarVideo {
+  width: 376px;
+  height: 323px;
+  margin-right: 15px;
+  overflow: hidden;
+  float: left;
+  display: inline; }

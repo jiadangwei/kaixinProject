@@ -1,0 +1,120 @@
+.northCar {
+    margin-bottom:10px;
+}
+.northCarTxt {
+    padding:0 6px;
+}
+.northCarTilte {
+    border-bottom:1px solid #cacaca;
+    padding:0 10px;
+    a,i,span {
+        display: inline-block;
+        vertical-align:middle;
+        cursor: pointer;
+    }
+    i {
+        font-size:0;
+        width:0;
+        height:100%;
+        visibility:hidden;
+    }
+    a,a:hover {
+        color:#666;
+        text-decoration:none;
+    }
+    a {
+        height:63px;
+        border:1px solid #cacaca;
+        position: relative;
+        top:1px;
+        width:21%;
+        padding:0 1%;
+        margin:0 2px;
+        text-align:center;
+        font-family:"Microsoft YaHei",STHeiTi,Arial;
+        background: rgb(247,247,247); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(221,221,221,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,247,247,1)), color-stop(100%,rgba(221,221,221,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(221,221,221,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#dddddd',GradientType=0 ); /* IE6-8 */
+        &:hover,&.ahover {
+            filter:none;
+            background:#fff;
+            border-bottom-color:#fff;
+        }
+    }
+}
+:root .northCarTilte a {
+    filter:none\9;
+}
+.northCarCon {
+    border:1px solid #cacaca;
+    border-top:0 none;
+    padding:10px;
+}
+.northCarImg {
+    border-radius:10px;
+}
+.northCarh2 {
+    color:#333;
+    height:30px;
+    background:#eaeaea;
+    padding-left:15px;
+    font:14px/30px "Microsoft YaHei",STHeiTi,Arial;
+    margin:5px 0;
+}
+@mixin northCarMixin($wrapwd,$wd,$ht) {
+    li {
+        width:$wrapwd;
+    }
+    .northCarImg {
+        width:$wd;
+        height:$ht;
+    }
+}
+.northCarItem {
+    @include northCarMixin(33.3%,173px,118px);
+    font-size:0;
+    li {
+        font-size:12px;
+        padding:5px 0;
+        display:inline-block;
+        *display:inline;
+        *zoom:1;
+        vertical-align:top;
+        overflow:hidden;
+        a {
+            display:block;
+            text-align:center;
+        }
+    }
+}
+.northCarItem1 {
+    @include northCarMixin(49.5%,275px,152px);
+}
+.northCarItem2 {
+    @include northCarMixin(20%,109px,74px);
+}
+.northCarItem3 {
+    @include northCarMixin(20%,106px,106px);
+}
+.northCarItem4 {
+    @include northCarMixin(33.3%,181px,181px);
+}
+.northCarItem5 {
+    @include northCarMixin(16.5%,90px,90px);
+}
+.northCarItem6 {
+    @include northCarMixin(33.3%,180px,120px);
+}
+.northCarVideo {
+    width:376px;
+    height:323px;
+    margin-right:15px;
+    overflow:hidden;
+    float:left;
+    display:inline;
+}

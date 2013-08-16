@@ -1,0 +1,640 @@
+/* kxApplicationTop */
+.kxApplicationTop {
+  height: 83px;
+  border-bottom: 1px solid #eeefef;
+  background: #f4f9fb;
+  background: -moz-linear-gradient(top, rgba(118, 213, 236, 0.06) 0%, rgba(64, 165, 189, 0.06) 28%, rgba(118, 213, 236, 0.06) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(118, 213, 236, 0.06)), color-stop(28%, rgba(64, 165, 189, 0.06)), color-stop(100%, rgba(118, 213, 236, 0.06)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(118, 213, 236, 0.06) 0%, rgba(64, 165, 189, 0.06) 28%, rgba(118, 213, 236, 0.06) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(118, 213, 236, 0.06) 0%, rgba(64, 165, 189, 0.06) 28%, rgba(118, 213, 236, 0.06) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(118, 213, 236, 0.06) 0%, rgba(64, 165, 189, 0.06) 28%, rgba(118, 213, 236, 0.06) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(118, 213, 236, 0.06) 0%, rgba(64, 165, 189, 0.06) 28%, rgba(118, 213, 236, 0.06) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f76d5ec', endColorstr='#0f76d5ec',GradientType=0 );
+  /* IE6-9 */ }
+
+.kxApplicationNav {
+  background: url(img/kxApplicationLog.png) no-repeat 25px 15px;
+  padding: 25px 0 0 292px;
+  font-size: 0;
+  height: 45px; }
+  .kxApplicationNav a {
+    color: #333;
+    text-shadow: 0 1px 1px #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 127px;
+    height: 27px;
+    text-align: center;
+    background: #f6f6f7;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    font: bold 13px/27px arial;
+    background: #fbfbfb;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fbfbfb 0%, #f1f2f3 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #f1f2f3));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fbfbfb 0%, #f1f2f3 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fbfbfb 0%, #f1f2f3 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fbfbfb 0%, #f1f2f3 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fbfbfb 0%, #f1f2f3 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#f1f2f3',GradientType=0 );
+    /* IE6-9 */ }
+    .kxApplicationNav a:hover, .kxApplicationNav a.ahover {
+      background: #e5e5e5;
+      border: 1px solid #ccc; }
+
+:root .kxApplicationTop, :root .kxApplicationNav a {
+  filter: none\9; }
+
+.borderRadiusLfBt3 {
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px; }
+
+.borderRadiusRtBt3 {
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px; }
+
+img {
+  border: 0; }
+
+.kxAppP25 {
+  padding: 25px; }
+
+.kxAppPt20 {
+  padding-top: 20px; }
+
+.kxAppMt50 {
+  margin-top: 50px; }
+
+.kxAppL {
+  float: left;
+  display: inline; }
+
+.kxAppR {
+  float: right;
+  display: inline; }
+
+.kxAppc8 {
+  color: #888; }
+
+.clfix {
+  *zoom: 1; }
+  .clfix:before, .clfix:after {
+    content: '';
+    display: table; }
+  .clfix:after {
+    clear: both;
+    overflow: hidden; }
+
+.overfix {
+  overflow: hidden;
+  *overflow: visible;
+  *zoom: 1; }
+
+.kxAppLf {
+  float: left;
+  width: 100%;
+  margin-right: -100%; }
+
+.kxAppRt {
+  float: right;
+  width: 190px; }
+
+.kxAppLfCon {
+  margin-right: 250px; }
+
+/* kxApplicationbanner */
+.kxAppBannertop {
+  height: 50px; }
+
+.kxAppBtn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 101px;
+  height: 37px;
+  background: url(img/kxAppBtn.png) no-repeat; }
+
+.kxAppAndroidBtn .kxAppBtn {
+  background-position: 0 0; }
+
+.kxAppIphone .kxAppBtn {
+  background-position: -104px 0; }
+
+.kxAppAndroidBtn .ahover {
+  background-position: 0 -37px; }
+
+.kxAppIphone .ahover {
+  background-position: -104px -37px; }
+
+.kxAppBanner, .kxAppBannerCon, .kxAppBannerCon a {
+  width: 703px;
+  height: 230px;
+  overflow: hidden; }
+
+.kxAppBannerCon {
+  width: 3550px; }
+
+.kxAppBannerCon a {
+  float: left;
+  display: inline; }
+  .kxAppBannerCon a img {
+    width: 703px;
+    height: 230px;
+    vertical-align: middle;
+    border: 0 none; }
+
+.kxAppClientDown {
+  display: block;
+  height: 230px;
+  background: url(img/kxAppClientDown.png) no-repeat 0 0;
+  margin-bottom: 35px; }
+
+.kxAppH2Wrap {
+  text-align: right;
+  height: 30px;
+  border-bottom: 1px solid #d9dce2;
+  font-size: 0;
+  margin-bottom: 5px; }
+
+.kxAppH3Wrap {
+  color: #333;
+  height: 30px;
+  font: bold 14px/30px arial;
+  border-bottom: 2px solid #e4e4e4; }
+
+.kxAppH2tit {
+  float: left;
+  color: #333;
+  font: bold 14px/30px arial; }
+
+.kxArrowIcon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  overflow: hidden;
+  border: 6px dashed transparent; }
+
+.kxArrowIconLf, .kxArrowIconRt {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 0 8px; }
+
+.kxArrowIconLf {
+  border-right: 1px solid #eee; }
+
+.kxArrowIconLf .kxArrowIcon {
+  border-right: 6px solid #93aec9;
+  border-left: 0 none; }
+
+.kxArrowIconRt .kxArrowIcon {
+  border-left: 6px solid #93aec9;
+  border-right: 0 none; }
+
+.kxArrowbgCl {
+  background: #fbfbfb; }
+
+.kxArrowbgCl .kxArrowIconl {
+  border-right-color: #cbd8e4;
+  cursor: text; }
+
+.kxArrowbgCl .kxArrowIconR {
+  border-left-color: #cbd8e4;
+  cursor: text; }
+
+.dibWrap {
+  font-size: 0;
+  *word-spacing: -1px; }
+  .dibWrap .dib {
+    font-size: 12px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .dibWrap {
+    letter-spacing: -5px; } }
+.dib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.ellipsisBox {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.kxAppItem {
+  overflow: hidden;
+  text-align: justify;
+  -ms-text-justify: distribute-all-lines;
+  text-justify: distribute-all-lines; }
+
+.kxAppItem:after {
+  display: inline-block;
+  width: 100%;
+  content: '.';
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden; }
+
+.kxAppItem li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  width: 20.1%;
+  vertical-align: middle;
+  padding: 12px 0; }
+
+.overFixLfImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px; }
+
+.kxAppItemSn {
+  margin-bottom: 20px; }
+  .kxAppItemSn li {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #d8d8d8;
+    color: #333;
+    padding: 0 5px; }
+    .kxAppItemSn li i, .kxAppItemSn li img, .kxAppItemSn li span {
+      display: inline-block;
+      vertical-align: middle; }
+    .kxAppItemSn li span {
+      width: 125px; }
+    .kxAppItemSn li i {
+      margin-right: 12px;
+      width: 13px;
+      height: 11px; }
+    .kxAppItemSn li img {
+      margin-right: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 3px; }
+
+.kxAppItemSnIcon {
+  background: url(img/kxAppItemSnIcon.png) no-repeat; }
+
+.kxAppSn0 {
+  background-position: 0 -1px; }
+
+.kxAppSn1 {
+  background-position: 0 -14px; }
+
+.kxAppSn2 {
+  background-position: 0 -27px; }
+
+.kxAppSn3 {
+  background-position: 0 -40px; }
+
+.kxAppSn4 {
+  background-position: 0 -53px; }
+
+.kxAppSn5 {
+  background-position: 0 -66px; }
+
+.kxAppSn6 {
+  background-position: 0 -79px; }
+
+.kxAppSn7 {
+  background-position: 0 -92px; }
+
+.kxAppSn8 {
+  background-position: 0 -105px; }
+
+.kxAppSn9 {
+  background-position: 0 -118px; }
+
+.kxAppItemLayer {
+  display: none;
+  width: 255px;
+  background: #fff;
+  border: 1px solid #cecece;
+  position: absolute; }
+
+.kxAppItemLayerBd {
+  padding: 15px 13px; }
+
+.kxAppItemLayerFt {
+  height: 41px;
+  border-top: 1px solid #f2f2f2;
+  background: #fafafa;
+  text-align: right; }
+  .kxAppItemLayerFt .kxbtn {
+    margin: 7px 10px 0 0; }
+
+.kxAppFace26Area {
+  width: 210px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0; }
+
+.kxAppFace26 {
+  width: 26px;
+  height: 26px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-right: 8px; }
+
+.kxAppFace26More {
+  background: url(img/kxAppFace26More.png) no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 4px;
+  overflow: hidden;
+  margin-left: -3px;
+  vertical-align: middle; }
+
+.kxAppItemLayerTitle {
+  display: inline-block;
+  width: auto;
+  max-width: 100px; }
+
+.kxAppItemLayerCategory {
+  display: inline-block; }
+
+.kxAppItemLayerCon {
+  padding-top: 5px;
+  color: #888;
+  max-height: 53px;
+  _height: 53px;
+  font: 12px/18px arial;
+  overflow: hidden; }
+
+.kxAppItemLayerArrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin-left: 15px;
+  border: 7px dashed transparent;
+  border-top: 0 none; }
+
+.kxAppItemLayerArrow1 {
+  margin-top: -8px;
+  border-bottom: 7px solid #bebebe; }
+
+.kxAppItemLayerArrow2 {
+  margin-top: -7px;
+  border-bottom: 7px solid #fff; }
+
+/**2013/01/07  zhanlihong add **/
+.appHero {
+  position: relative;
+  height: 162px;
+  z-index: 10; }
+
+.appTit {
+  position: absolute;
+  bottom: -38px;
+  width: 703px;
+  z-index: 10; }
+
+.appTit .iconInfo {
+  background: url(img/game_icon_bg.png) 0 0 no-repeat;
+  width: 86px;
+  height: 77px;
+  text-align: center;
+  margin: 0 6px 0 7px;
+  _background: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/game_icon_bg.png', sizingMethod='crop'); }
+
+.appTit .iconInfo .imgInfo {
+  position: relative;
+  display: block;
+  margin: 8px auto 0; }
+
+.appTitInfo {
+  font: 24px/30px "Microsoft YaHei", arial;
+  color: #333333; }
+
+.appTit .cmd,
+.appListItem .cmd {
+  display: block;
+  text-indent: -9999em;
+  background: url(img/recommend_btn.jpg) 0 0 no-repeat;
+  width: 72px;
+  height: 29px;
+  cursor: pointer;
+  margin-top: 5px;
+  float: right; }
+
+.appListItem .cmd {
+  float: none; }
+
+.appTit .txtInfo {
+  padding-top: 43px; }
+
+.appTit .txtInfo p.fl {
+  margin-top: 10px;
+  margin-left: 10px; }
+
+.playUserList {
+  padding-left: 100px;
+  padding-top: 53px;
+  width: 603px;
+  position: relative; }
+
+.appInfoHead .tit {
+  display: block;
+  padding-right: 5px; }
+
+.appInfoHead .userListInfo {
+  float: left;
+  width: 380px; }
+
+.appInfoHead .moreUser {
+  float: left;
+  width: 100px;
+  padding-top: 3px;
+  height: 29px; }
+
+.appInfoHead .userListInfo li,
+.appInfoHead .userListInfo2 li {
+  float: left;
+  padding-right: 12px;
+  width: 26px;
+  white-space: nowrap;
+  height: 26px;
+  padding-bottom: 5px; }
+
+.appInfoHead .userListInfo2 li {
+  _background: #FFFFFF; }
+
+.appInfoHead .moreUserLink {
+  display: block;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  color: #666;
+  font-family: arial; }
+
+.appInfoHead .moreUserLink .input {
+  color: #369;
+  padding: 0 2px;
+  line-height: 17px;
+  display: inline; }
+
+.appInfoHead .icon {
+  position: relative;
+  top: 0px;
+  cursor: pointer;
+  top: -1px; }
+
+.appInfoHead .sub_arrow {
+  background: url(img/sub_arrow.png) no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 6px; }
+
+.appInfoHead .select .sub_arrow {
+  background-position: 0 -15px; }
+
+.appInfoHead .userListInfo2 {
+  display: none;
+  position: absolute;
+  left: 177px;
+  top: 85px;
+  width: 456px; }
+
+.appTitle {
+  color: #333333;
+  font: bold 14px/20px arial;
+  background: url(img/wireless_tit_bg.gif) 0 2px no-repeat;
+  padding-left: 10px;
+  margin: 22px 0 10px; }
+
+.appTitle .statistics {
+  color: #999999;
+  font-weight: normal; }
+
+.lh22 {
+  line-height: 22px; }
+
+.appInfoBody {
+  padding-left: 15px; }
+
+.iphone_downLink {
+  display: block;
+  background: url(img/download_iphone_btn.jpg) 0 0 no-repeat;
+  width: 192px;
+  height: 51px;
+  text-indent: -9999em; }
+
+.appDownInfo {
+  line-height: 20px;
+  padding: 22px 5px 0; }
+
+.appDownInfo .pt25 {
+  padding-top: 25px; }
+
+.otherAppTit {
+  font: bold 14px/20px arial;
+  color: #333;
+  height: 25px;
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 2px; }
+
+.otherAppItem {
+  background: url(img/dot_line.gif) 0 100% repeat-x;
+  padding: 15px 0 15px 5px;
+  overflow: hidden;
+  zoom: 1; }
+
+.otherAppItem .otherAppInfo {
+  padding-left: 8px; }
+
+.appList {
+  margin-left: -35px;
+  width: 740px; }
+
+.appListItem {
+  margin-bottom: 25px;
+  position: relative;
+  width: 150px;
+  margin-left: 35px;
+  float: left; }
+
+.appListItem .AppListInfo,
+.frAppItem .frAppInfo {
+  padding-left: 8px; }
+
+.appListItem .del {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background: url(img/appDel_bg.gif) 0 0 no-repeat;
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+  display: block;
+  text-indent: -999em;
+  display: none; }
+
+.frAppItem {
+  padding: 20px 0;
+  border-bottom: 1px solid #d9dce2; }
+
+.frAppItem .pre_quotation,
+.frAppItem .quotation {
+  display: block;
+  float: left;
+  background: url(img/quotation.gif) -999em -999em no-repeat; }
+
+.frAppItem .pre_quotation {
+  width: 12px;
+  height: 10px;
+  background-position: 0 0;
+  margin-top: 9px; }
+
+.frAppItem .quotation {
+  width: 12px;
+  height: 15px;
+  background-position: 0 -50px;
+  *background-position: 0 -48px;
+  _background-position: 0 -46px;
+  float: none;
+  display: inline-block;
+  margin-left: 3px; }
+
+.frAppItem .cmdTxt {
+  display: block;
+  color: #333;
+  padding: 3px 0 0 3px;
+  font-size: 14px;
+  width: 500px;
+  float: left; }
+
+.frAppItem .friendInfo {
+  width: 60px;
+  text-align: center;
+  margin-right: 20px; }
+
+.kxAppMt25 {
+  margin-top: 25px; }

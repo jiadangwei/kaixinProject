@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>道具</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes"> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="style/index.css">
+	<script src="js/zepto.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body class="bg-body">
+	<div class="ft1 d-box b-orient-v h-all">
+		<!-- top 内容 -->
+		<header class="topBar d-box b-align-c">
+			<a href="" class="btnReturn">返回</a>
+			<h1 class="b-flex1 tx-c ft2">开心网争车位</h1>
+		</header>
+
+		<!-- 争车位banner -->
+		<!-- <div class="banner bg-contain p-r">
+			<img src="style/img/banner.png" alt="">
+			<div class="p-a-all myMoney" style="display:block;">
+				<div class="myMoneyWrap">
+					<div class="myMoneyBox">
+						<div class="tipsInfo">我的现金：99999999999999999元</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips">
+			<div>你已成功将<span>奥迪R8</span>车赠送给 <span>付明明</span>!</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips">
+			<div>你成功购买了一辆 <span>奥迪A4</span></div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips">
+			<div>呜呜~~~~，现金不够了，赶快停车获取现金吧！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips">
+			<div>你的汽车数量已经达到10辆，不能再购买新车了。</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips">
+			<div>你成功换购了一辆 <span>凯迪拉克CTS</span>，补交了现金438200元。</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>请选择你要更换的汽车！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>你只有一辆汽车，按照游戏规则不能卖出</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>“停车许可证”使用成功！<br / >从现在到2月25日 14:41，你所有的车都不会被警察贴条。</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>你成功购买了一张别墅街景卡！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>你成功购买了古堡场景卡！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>对不起，你的现金不足30000，无法购买钓鱼岛场景卡！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>请选择你要更换的场景卡！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>停车场景更换成功！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>你把奔驰卖了，获得现金280000元</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>这辆车隶属接力赛车队，不能被回收！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<!-- <div class="carTips" style="top:5px;">
+			<div>你把永军的夏利充公了！</div>
+		</div> -->
+
+		<!-- 提示信息 -->
+		<div class="carTips" style="top:5px;">
+			<div>你目前没有好友，不能使用该卡！</div>
+		</div>
+
+		<!-- 导航列表 -->
+		<nav>
+			<ul class="navItem d-box">
+				<li class="ahover"><a href="" class="navicon1"><span class="hide-text">首页</span></a></li>
+				<li><a href="" class="navicon2"><span class="hide-text">车市</span></a></a></li>
+				<li><a href="" class="navicon3"><span class="hide-text">道具</span></a></a></li>
+				<li><a href="" class="navicon4"><span class="hide-text">客户</span></a></a></li>
+				<li><a href="" class="navicon5"><span class="hide-text">排行</span></a></a></li>
+				<li><a href="" class="navicon6"><span class="hide-text">接力赛</span></a></a></li>
+				<li><a href="" class="navicon7"><span class="hide-text">组装厂</span></a></a></li>
+			</ul>
+		</nav>
+
+
+		<!-- 道具商城 -->
+		<section class="myCar">
+			<div class="titBar">
+				<h2 class="b-flex1 ft16">道具商城</h2>
+				<a href="" class="btnNewCarStyle1">返回</a>
+			</div>
+			<div class="topCircle">
+
+				<nav>
+					<ul class="propsNav">
+						<li class="ahover"><a href="">道具</a></li>
+						<li><a href="">场景卡</a></li>
+					</ul>
+				</nav>
+
+				<div class="propsNavConWrap">	
+					<div class="propsNavCon">					
+						<ul class="propsItem">
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a><a href="" class="btnNewCar wd_90">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">车位变更卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">拥有：3个</div>
+								</div>
+							</li>
+						</ul>			
+					</div>
+	
+					<div class="propsNavCon" style="display:none;">					
+						<ul class="propsItem">
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">以旧换新</a><a href="" class="btnNewCar mg-r-10">&emsp;购买&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r"></div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="tx-l"><span class="propsCard" style="background-image:url(style/img/loginProcessImg.png)"></span></div>
+									<div class="tx-r"><a href="" class="btnNewCar mg-r-10">&emsp;使用&emsp;</a></div>
+								</div>
+								<div>
+									<div class="tx-l">庭院场景卡</div>
+									<div>价格：30000元</div>
+									<div class="tx-r">已拥有</div>
+								</div>
+							</li>
+						</ul>			
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+	</div>
+
+
+
+
+	<!-- 充工卡：请选择欧阳永军的车充公 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop visib_v">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">充公卡</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+
+					<div class="carPlace mg-t-30" style="height:65px; background-image:url(style/img/chonggongka.png)"></div>
+					<p class="tx-c ft16">你要把谁的车充公？</p>
+					<div class="carPlaceWrapBox">
+						<ul class="carPlaceWrap c-fix" style="width:300%;">  <!-- 300%为下面li的个数 -->
+							<li>
+								<div>								
+									<div class="nameFriend mg-t-10">
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span class="ahover"><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="nameFriend mg-t-10">
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div>
+									<div class="nameFriend mg-t-10">
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+										<div>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+											<span><a href="">孙鸣石</a></span>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<ul class="mycarPage">
+						<li><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li class="ahover"><a href="">4</a></li>
+						<li><a href="">5</a></li>
+						<li><a href="">6</a></li>
+						<li><a href="">7</a></li>
+						<li><a href="">8</a></li>
+						<li><a href="">9</a></li>
+						<li><a href="">10</a></li>
+					</ul>		
+
+
+					safdsaf				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<!-- 充公卡：请选择欧阳永军的车充公 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">充公卡：请选择欧阳永军的车充公</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+
+					<div class="selectCarMarketWrap">
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" class="ahover" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+					</div>
+					
+					<ul class="mycarPage" style="height:40px; width:35%;">
+						<li class="ahover"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+					</ul>
+					<p class="tx-c mg-b-20"><a href="" class="btnNewCar">&emsp;确定&emsp;</a></p>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- 旧车回收卡：请选择要卖掉的车辆 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">旧车回收卡：请选择要卖掉的车辆</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+
+					<div class="selectCarMarketWrap">
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" class="ahover" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+					</div>
+					
+					<ul class="mycarPage" style="height:40px; width:35%;">
+						<li class="ahover"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+					</ul>
+					<p class="tx-c mg-b-20"><a href="" class="btnNewCar">&emsp;确定&emsp;</a></p>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- 请选择要更换的车辆 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">请选择要更换的车辆</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+
+					<div class="selectCarMarketWrap">
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" class="ahover" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+							<a href="" style="background-image:url(style/img/carImg02.png)"></a>
+						</div>
+					</div>
+					
+					<ul class="mycarPage" style="height:40px; width:35%;">
+						<li class="ahover"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+					</ul>
+					<p class="tx-c mg-b-20"><a href="" class="btnNewCar">&emsp;确定&emsp;</a></p>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- 请选择要更换的场景卡 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">请选择要更换的场景卡</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+
+					<div class="selectCarMarketWrap sceneCardWrap">
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" class="ahover" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+						</div>
+						<div class="selectCarMarket">
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+							<a href="" style="background-image:url(style/img/sceneCard01.png)"><span>庭院场景卡</span></a>
+						</div>
+					</div>
+					
+					<ul class="mycarPage" style="height:40px; width:35%;">
+						<li class="ahover"><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+					</ul>
+					<p class="tx-c mg-b-20"><a href="" class="btnNewCar">&emsp;确定&emsp;</a></p>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 汽车信息 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">汽车信息</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:85px; background-image:url(style/img/carImg02.png)"></div>
+						<p class="tx-c ft16 pd-5-0">无敌风火轮</p>
+						<p class="tx-c ft16 pd-b-5">价格：<i class="cirleIcon">￥</i>2800万</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;购买&emsp;</a></div>
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">以旧换新</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 购买汽车 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">购买汽车</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:85px; background-image:url(style/img/carImg02.png)"></div>
+						<p class="tx-c ft16 pd-5-0">无敌风火轮</p>
+						<p class="tx-c ft16 pd-b-5">价格：<i class="cirleIcon">￥</i>2800万</p>
+						<p class="tx-c ft16 pd-b-5">	你需要补交：30210元</p>
+						<div class="buyCarColor">
+							<a href=""></a>
+							<a class="ahover" href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+							<a href=""></a>
+						</div>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;购买&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 购买道具 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">购买道具</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:57px; background-image:url(style/img/sceneCard01.png)"></div>
+						<p class="tx-c ft16 pd-5-0">车位变更卡</p>
+						<p class="tx-c ft16 pd-b-5">价格：<i class="cirleIcon">￥</i>2800万</p>
+						<p class="tx-c ft16 pd-b-5 mg-0-20">用它可以将你停车场里唯一的一个免费公共车位升级为收费私家车位。</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;购买&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 道具：停车许可证 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">道具：停车许可证</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:50px; background-image:url(style/img/parkingLicense.png)"></div>
+						<p class="tx-c ft16 pd-b-5 mg-0-20 mg-t-10">你确定要使用停车许可证吗？</p>
+						<p class="tx-c ft16 pd-b-5 mg-0-20 mg-t-5">使用后，从现在开始的72小时内，你所有的车都不会被警察贴条。</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;确定&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 购买场景卡 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">购买场景卡</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:57px; background-image:url(style/img/sceneCard01.png)"></div>
+						<p class="tx-c ft16 pd-5-0">庭院场景卡</p>
+						<p class="tx-c ft16 pd-b-5">价格：<i class="cirleIcon">￥</i>2800万</p>
+						<p class="tx-c ft16 pd-b-5 mg-0-20">把你的停车位升级美丽的庭院，你的停车场里，停车收入将为17元/分钟（每次停车最多还是收入7200元）</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;购买&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 场景卡以旧换新 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">场景卡以旧换新</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:57px; background-image:url(style/img/sceneCard01.png)"></div>
+						<p class="tx-c ft16 pd-5-0">庭院场景卡</p>
+						<p class="tx-c ft16 pd-b-5">价格：<i class="cirleIcon">￥</i>2800万</p>
+						<p class="tx-c ft16 pd-b-5">	你需要补交：5000元</p>
+						<p class="tx-c ft16 pd-b-5 mg-0-20">把你的停车位升级美丽的庭院，你的停车场里，停车收入将为17元/分钟（每次停车最多还是收入7200元）</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;确定&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 场景卡 -->
+	<div class="ft1 p-a-all d-box b-align-c b-pack-c bg_gray70 carPop">
+		<div class="carPopWrap">
+			<div class="carPopInner">
+				<div class="d-box  b-align-c carPopHd">
+					<h2 class="b-flex1">场景卡</h2><a href="javascript:void(0)" class="btnCloseCarPop"></a>
+				</div>
+				<div class="carPopBd">
+						<div class="mg-t-15 mg-b-5 mg-auto carPopCar bg-contain" style="height:50px; background-image:url(style/img/scenarioCard.png)"></div>
+						<p class="tx-c ft16 pd-b-5 mg-20">你确定要将场景卡更换成“王楠爱琴海边”吗？</p>
+						<div class="d-box mg-b-20 mg-t-10">
+							<div class="b-flex1 tx-c"><a class="btnNewCar" href="">&emsp;确定&emsp;</a></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
