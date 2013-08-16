@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>asfdaf</title>
+</head>
+<body>
+
+<style type="text/css">
+    * {margin:0; padding:0;}
+    .ipadTipsWrap { width: 1005px; margin:0 auto; position:relative; height:0; line-height: 0; z-index: 100000; }
+    .ipadTipsWrap a:focus {outline:none;}
+    .ipadTipsBox { position: absolute; width: 315px; height: 185px; background: #fffddd; border: 1px solid #d6d4a7; right: 0; top: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+    .ipadTipsTopArrow1,.ipadTipsTopArrow2 { position: absolute; width: 0; height: 0; right: 68px; border-top: 0 none; border-left: 10px solid transparent; border-right: 10px solid transparent; }
+    .ipadTipsTopArrow1 { top: -15px; border-bottom: 15px solid #d6d4a7; }
+    .ipadTipsTopArrow2 { top: -14px; border-bottom: 15px solid #fffddd; }
+    .ipadTipsCloseBtn { position: absolute; right: 5px; width: 26px; height: 26px; background: url(http://img1.kaixin001.com.cn/i4/ipadtips/closeBtn.png) no-repeat 0 0; top: 5px; }
+    .ipadTipsTxt { background: url(http://img1.kaixin001.com.cn/i4/ipadtips/kxHdClient.png) no-repeat 10px 0; height: 122px; overflow: hidden; }
+    .txAlignCenter {text-align: center;} .ipadGoDownBtn { display: inline-block; vertical-align: middle; width: 142px; height: 50px; background: url(http://img1.kaixin001.com.cn/i4/ipadtips/goDownBtn.png) no-repeat 0 0;}
+</style>
+<div class="ipadTipsWrap">
+    <div class="ipadTipsBox">
+        <span class="ipadTipsTopArrow1"></span>
+        <span class="ipadTipsTopArrow2"></span>
+        <a href="" class="ipadTipsCloseBtn"></a>
+        <div class="ipadTipsTxt"></div>
+        <p class="txAlignCenter"><a href="https://itunes.apple.com/cn/app/id586852225#" class="ipadGoDownBtn" title="去下载"></a></p>
+    </div>
+</div>
+<script type="text/javascript">
+    function addListener(target,type,handler){
+        if(target.addEventListener){
+            target.addEventListener(type,handler,false);
+        }else if(target.attachEvent){
+            target.attachEvent('on'+type,handler);
+        }else{
+            target['on'+type] = handler;
+        }
+    };
+    function closeFn(){
+//        var ipadTipsWrap = document.getElementsByClassName('ipadTipsWrap');
+//        ipadTipsWrap.style.display = 'none';
+        alert('aaaaaaaaaaa')
+    }
+    window.onload = function(){
+        var closeBtn = document.getElementsByClassName('ipadTipsCloseBtn');
+        addListener(closeBtn,'mouseover',closeFn);
+    }
+
+</script>
+<!--
+<script type="text/javascript">
+    $(function(){
+        $('.ipadTipsCloseBtn').click(function(evt){
+            evt.preventDefault();
+            $(this).closest('.ipadTipsWrap').hide();
+        })
+    })
+</script>-->
+</body>
+</html>
