@@ -509,13 +509,13 @@
 .unLock .iconLock1 {
     display: none;
 }
-.planetCuror .ballStartCellIner,.planetCuror .lightLine,.planetMainWrap li:hover .BtnIconWrap {
+.planetCuror .ballStartCellIner,.planetCuror .lightLine {
     display: block;
 }
 .unLock .ballStartCell:hover .ballStartCellIner {
     display: block;
 }
-.ballStartWrap li.unLock:hover .BtnIconWrap {
+.ballStartWrap li.unLock:hover .BtnIconWrap,.planetMainWrap li.unLock:hover .BtnIconWrap {
     display: block;
 }
 .dbloc {
